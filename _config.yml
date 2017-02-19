@@ -1,0 +1,86 @@
+# Site settings
+title: MUSA
+email: musa@math.berkeley.edu
+url:   https://musa.berkeley.edu
+description: >
+  MUSA is the Mathematics Undergraduate Student Association
+  at the University of California, Berkeley.
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: MUSA
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/groups/musa.berkeley/
+
+# Team names, titles and social links
+people:
+- name:     Irra Na 
+  position:     Professional Chair      
+  pic:  Irra_Na.jpg     
+       
+- name:         Ryan Shaw       
+  position:     Professional Chair      
+  pic:  Ryan_Shaw.jpg   
+       
+- name:         Ruta Jawale     
+  position:     Publicity Chair 
+  pic:  Ruta_Jawale.jpg 
+       
+- name:         Cynthia Shen    
+  position:     Publicity Chair 
+  pic:  Cynthia_Shen.jpg        
+       
+- name:         Victor Hakim    
+  position:     Social Chair    
+  pic:  Victor_Hakim.jpg        
+       
+- name:         Mahnoor Mian    
+  position:     Social Chair    
+  pic:  Mahnoor_Mian.jpg        
+       
+- name:         Edgar Rodriguez 
+  position:     Outreach Chair  
+  pic:  Edgar_Rodriguez.jpg     
+       
+- name:         Anna Leskova    
+  position:     Outreach Chair  
+  pic:  Anna_Leskova.jpg        
+       
+- name:         Jerry Wu        
+  position:     Academic Chair  
+  pic:  Jerry_Wu.jpg    
+       
+- name:         Brandon Van Over        
+  position:     Academic Chair  
+  pic:  Brandon_Van_Over.jpg    
+       
+- name:         Brian Burks     
+  position:     Academic Chair  
+  pic:  Brian_Burks.jpg 
+       
+- name:         Michelle Ko     
+  position:     Treasurer       
+  pic:  Michelle_Ko.jpg 
+       
+- name:         Mahrud Sayrafi  
+  position:     Webmaster       
+  pic:  Mahrud_Sayrafi.jpg      
+       
+- name:         Clark Lyons     
+  position:     Vice President  
+  pic:  Clark_Lyons.jpg 
+       
+- name:         Cailan Li       
+  position:     President       
+  pic:  Cailan_Li.jpg   
+       
+
+# Build settings
+markdown: kramdown
+permalink: pretty

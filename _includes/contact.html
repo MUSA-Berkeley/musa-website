@@ -1,0 +1,31 @@
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-md-8 col-lg-6 col-lg-offset-1">
+            <h2>Contact</h2>
+<p>Have any questions? Email us at <a href="mailto:musa@math.berkeley.edu">musa@math.berkeley.edu</a> 
+or visit our office at 938 Evans Hall (see a map in the about section above).</p>
+            <p><a href="mailto:{{ site.email }}" class="btn btn-default btn-lg">{{ site.email }}</a>
+               <a href="https://www.facebook.com/groups/musa.berkeley/" class="btn btn-default btn-lg">
+               <i class="fa fa-facebook fa-fw"></i>
+                 <span class="network-name">facebook</span></a></p>
+<p>Our primary method of communication is through weekly emails in our mailing list at musa@lists.berkeley.edu.
+To subscribe visit <a href= "https://calmail.berkeley.edu/manage/list/listinfo/musa@lists.berkeley.edu">here</a>.</p>
+          </div>
+
+          <div class="col-xs-12 col-md-4 col-lg-4">
+            <h4>Wanna send us a message?</h4>
+            <form method="POST" action="http://formspree.io/musa@math.berkeley.edu">
+              <input type="hidden" name="_next" value="/#contact" />
+              <input type="email" name="email"   style="width: 100%;" placeholder="fermat@berkeley.edu"/> <br />
+              <input type="text" name="_subject" style="width: 100%;" placeholder="Proof of my last theorem"/> <br />
+              <textarea          name="message" style="width: 100%;" rows=10
+placeholder="I have discovered a truly marvelous proof of this, which this margin is too narrow to contain."></textarea> <br />
+              <input type="submit" class="btn btn-default btn-lg"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
