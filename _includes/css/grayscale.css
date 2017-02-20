@@ -186,8 +186,25 @@ i.animated {
     padding-top: 150px;
 }
 
-#email {
+.email {
+    color: #000;
     background-color: #000;
+}
+
+#hoodies {
+    width: 100%;
+    padding: 15% 0%;
+    color: #fff;
+    background-image: url({{ site.baseurl }}/img/hoodie1.jpg), url({{ site.baseurl }}/img/hoodie2.jpg);
+    background-size: cover;
+}
+
+#professional {
+    width: 100%;
+    padding: 15% 0%;
+    color: #fff;
+    background: url({{ site.baseurl }}/img/professional-bg.jpg) no-repeat center center scroll;
+    background-size: cover;
 }
 
 #academic {
@@ -276,6 +293,7 @@ section h3.section-subheading {
 }
 
 .team-member img {
+    width: 100%;
     margin: 0 auto;
     border: 0px solid #fff;
 }
