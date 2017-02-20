@@ -89,17 +89,19 @@ a:focus {
 }
 
 .dropdown-menu {
+    min-width: 100%;
     border-radius: 10px;
-    position: absolute;
+    position: relative;
     background-color: {{ site.color.primary-dark }};
 }
 
 .dropdown:hover .dropdown-menu {
     display: block;
     color: #eb0;
+    left: 0;
 }
 
-.dropdown-menu>li>a {
+.dropdown-menu li a {
     color: #eb0;
 }
 
