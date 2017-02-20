@@ -88,6 +88,21 @@ a:focus {
     outline: 0;
 }
 
+.dropdown-menu {
+    border-radius: 10px;
+    position: absolute;
+    background-color: {{ site.color.primary-dark }};
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    color: #eb0;
+}
+
+.dropdown-menu>li>a {
+    color: #eb0;
+}
+
 .navbar-custom a {
     color: #eb0;
 }

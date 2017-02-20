@@ -10,8 +10,14 @@
           <ul class="nav navbar-nav">
             <li><a class="page-scroll" href="{{ site.baseurl }}/">Home</a></li>
             <li><a class="page-scroll" href="{{ site.baseurl }}/#about">About</a></li>
-            <li><a class="page-scroll" href="{{ site.baseurl }}/academic">Academic</a></li>
-            <li><a class="page-scroll" href="{{ site.baseurl }}/#events">Events</a></li>
+            <li class="dropdown" id="event-menu">
+              <a class="page-scroll dropdown-toggle" data-toggle="dropdown" data-target="#event-menu"
+                                    href="{{ site.baseurl }}/#events">Events <b class="caret"></b></a>
+               <ul class="dropdown-menu">
+                 <li><a class="page-scroll" href="{{ site.baseurl }}/academic">Academic</a></li>
+                 <li><a class="page-scroll" href="{{ site.baseurl }}/professional">Professional</a></li>
+               </ul>
+            </li>
             <li><a class="page-scroll" href="{{ site.baseurl }}/officers">Officers</a></li>
             <li><a class="page-scroll" href="{{ site.baseurl }}/resources">Resources</a></li>
             <li><a class="page-scroll" href="{{ site.baseurl }}/#contact">Contact</a></li>
