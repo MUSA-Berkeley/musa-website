@@ -180,6 +180,8 @@ a:focus {
         background-size: cover;
     }
     .intro .intro-body .intro-text {
+        vertical-align: bottom;
+        margin-bottom: 0px;
         font-size: 25px;
     }
 }
@@ -209,7 +211,7 @@ i.animated {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 100px;
+        padding-top: 150px;
     }
 }
 
