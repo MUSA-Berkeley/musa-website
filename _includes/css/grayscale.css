@@ -105,6 +105,9 @@ a:focus {
     color: #eb0;
 }
 
+.navbar-header {
+}
+
 .navbar-custom a {
     color: #eb0;
 }
@@ -151,10 +154,9 @@ a:focus {
 .intro {
     display: table;
     width: 100%;
-    height: 80%;
-    background: url({{ site.baseurl }}/img/intro-bg.jpg) no-repeat center scroll;
-    background-position: 60% 0;
-    background-size: cover;
+    background: url({{ site.baseurl }}/img/intro-bg2.jpg) no-repeat center scroll;
+    background-position: center top;
+    background-size: 120%;
     background-color: {{ site.color.primary-dark }};
 }
 
@@ -167,12 +169,14 @@ a:focus {
 }
 
 .intro .intro-body .intro-text {
+    margin-top: 60%;
     font-size: 18px;
 }
 
 @media(min-width:767px) {
     .intro {
         height: 100%;
+        margin-top: -5%;
         background-size: cover;
     }
     .intro .intro-body .intro-text {
@@ -200,7 +204,13 @@ i.animated {
 
 
 .content-section {
-    padding-top: 150px;
+    padding-top: 5%;
+}
+
+@media(min-width:767px) {
+    .content-section {
+        padding-top: 100px;
+    }
 }
 
 .email {
