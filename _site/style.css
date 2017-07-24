@@ -176,7 +176,7 @@ a:focus {
 .intro {
     display: table;
     width: 100%;
-    background: url(/~musa/img/intro-bg2.jpg) no-repeat center scroll;
+    background: url(/img/intro-bg2.jpg) no-repeat center scroll;
     background-position: center top;
     background-size: 120%;
     background-color: #000000;
@@ -246,7 +246,7 @@ i.animated {
     width: 100%;
     padding: 15% 0%;
     color: #fff;
-    background-image: url(/~musa/img/hoodie1.jpg), url(/~musa/img/hoodie2.jpg);
+    background-image: url(/img/hoodie1.jpg), url(/img/hoodie2.jpg);
     background-size: cover;
 }
 
@@ -254,7 +254,7 @@ i.animated {
     width: 100%;
     padding: 15% 0%;
     color: #fff;
-    background: url(/~musa/img/professional-bg.jpg) no-repeat center center scroll;
+    background: url(/img/professional-bg.jpg) no-repeat center center scroll;
     background-size: cover;
 }
 
@@ -262,7 +262,7 @@ i.animated {
     width: 100%;
     padding: 15% 0%;
     color: #fff;
-    background: url(/~musa/img/academic-bg.jpg) no-repeat center center scroll;
+    background: url(/img/academic-bg.jpg) no-repeat center center scroll;
     background-size: cover;
 }
 

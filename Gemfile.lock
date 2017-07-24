@@ -47,5 +47,8 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   tzinfo-data
 
+RUBY VERSION
+   ruby 2.4.1p111
+
 BUNDLED WITH
-   1.10.6
+   1.15.3
