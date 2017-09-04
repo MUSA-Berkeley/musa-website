@@ -4,13 +4,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Officers</h2>
-                    <p class="section-subheading text-muted">We organize events with the help of all MUSA
-members and hold office hours in 938 Evans.</p>
+                    <h2 class="section-heading">Former Officers</h2>
                 </div>
             </div>
             <div class="row">
-                {% for member in site.people %}
+                {% for member in site.retired %}
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="{{ site.baseurl }}/img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">
@@ -22,9 +20,7 @@ members and hold office hours in 938 Evans.</p>
             </div>
             <div class="row">
                 <div class="text-center">
-                    <p class="text-muted">If you're interested in volunteering as an officer, let us know,
-and keep an eye our on our mailing list in August or occasionally January.</p>
-<p class="text-muted">You can also view a list of <a href="{{ site.baseurl }}/former_officers/">our former officers</a>.</p>
+                    <p class="text-muted"><a href="{{ site.baseurl }}/officers/">View our current officers</a></p>
                 </div>
             </div>
         </div>
