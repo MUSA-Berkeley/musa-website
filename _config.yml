@@ -40,11 +40,13 @@ people:
       
 - name:         Sung Hyup Lee
   position:     Academic Chair
-  pic:  Sung_Hyup_Lee.jpg
+  pic:  Placeholder.jpg
+  #pic:  Sung_Hyup_Lee.jpg
 
 - name:         Yu Ma
   position:     Academic Chair
-  pic:  Yu_Ma.jpg
+  pic:  Placeholder.jpg
+  #pic:  Yu_Ma.jpg
 
 - name:         Aidan Backus
   position:     Outreach Chair
@@ -56,7 +58,8 @@ people:
       
 - name:         Margo Oka
   position:     Professional Chair
-  pic:  Margo_Oka.jpg
+  pic:  Placeholder.jpg
+  #pic:  Margo_Oka.jpg
 
 - name:         Ryan Shaw       
   position:     Professional Chair      
@@ -76,7 +79,8 @@ people:
 
 - name:         Joshua Lin
   position:     Recreational Math
-  pic:  Joshua_Lin.jpg
+  pic:  Placeholder.jpg
+  #pic:  Joshua_Lin.jpg
 
 - name:         Lakshmi Ramesh
   position:     Social Chair
@@ -88,7 +92,8 @@ people:
 
 - name:         Sanat Mulay
   position:     Social Chair
-  pic:  Sanat_Mulay.jpg
+  pic:  Placeholder.jpg
+  #pic:  Sanat_Mulay.jpg
 
 retired:
 - name:     Irra Na 
