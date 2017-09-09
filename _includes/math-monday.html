@@ -1,0 +1,17 @@
+<!-- Team Section -->
+    <section id="math-monday" class="content-section text-center">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12">
+    <h1>Math Monday</h1>
+    <p>The Math Monday undergraduate lecture series is the flagship event of MUSA. It is a series of talks, every Monday at 5 PM, given by professors and other academics about mathematical research and special topics.</p>
+    {% for talk in site.monday %}
+    <h4>{{ talk.title }}</h4>
+    <p>Speaker: {{talk.speaker}} </p>
+    <p>Date and Room: {{talk.date}} in {{talk.room}}</p>
+    <p>Abstract: {{talk.abstract}}</p>
+    {% endfor %}
+        </div>
+      </div>
+      </div>
+    </section>
