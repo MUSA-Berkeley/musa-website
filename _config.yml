@@ -121,7 +121,7 @@ monday:
   speaker:  Professor Richard E. Borcherds
   date:     11 September, 2017
   room:     740 Evans
-  abstract: Beyond the usual numbers 0, 1, 2, 3, ..., lie Cantor's countable ordinal numbers ω, ω+1, ..., ω+ω, ..., ε<span style="vertical-align:sub; font-size: smaller;">0</span>, .... In some way their arithmetic is similar to the natural numbers; one can add, multiply and raise them to powers and define primes and so on. However in other ways their arithmetic looks a little strange; for example, 1+ω < ω+1.
+  abstract: Beyond the usual numbers 0, 1, 2, 3, ..., lie Cantor's countable ordinal numbers ω, ω+1, ..., ω+ω, ..., ε<sub>0</sub>, .... In some way their arithmetic is similar to the natural numbers; one can add, multiply and raise them to powers and define primes and so on. However in other ways their arithmetic looks a little strange; for example, 1+ω < ω+1.
 
 spotlights:
 - name: Pauline Sperry
