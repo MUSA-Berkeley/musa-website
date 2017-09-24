@@ -9,11 +9,11 @@
     <h2>Food</h2>
     {% for food in site.food %}
     <h4>{{ food.name }}</h4>
-    <p>Price: {{ food.price }}</p><img src="{{ site.baseurl }}/img/office-hours/{{food.pic}}" style="max-width: 4in; margin:auto;">
+    <p>Price: {{ food.price }}</p><p><img src="{{ site.baseurl }}/img/office-hours/{{food.pic}}" style="max-width: 4in; margin:auto;"></p>
     {% endfor %}
     <h2>Hours</h2>
-    <table style="width: 8in; margin:auto; font-size: 20px">
-    <tr><th></th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th></tr>
+    <table style="width: 10in; margin:auto; font-size: 20px">
+    <tr><th style="text-align:center;"></th><th style="text-align:center;">Monday</th><th style="text-align:center;">Tuesday</th><th style="text-align:center;">Wednesday</th><th style="text-align:center;">Thursday</th><th style="text-align:center;">Friday</th></tr>
     {% for hour in site.hours %}
     <tr>
         <td>{{ hour.time }}</td>

@@ -201,6 +201,7 @@ food:
   price: $0.50
 - name: Trail mix
   price: $0.75
+  pic: Snacks.jpg
 - name: Chips
   pic: Chips.jpg
   price: $0.50
