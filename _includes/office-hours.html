@@ -7,14 +7,12 @@
     <p>Our office is 938 Evans, between the courtyard and the back elevators. Come pay us a visit to buy food, sweaters, and other goodies, get information about upcoming events, or just relax and chat about math and life!</p>
     <!--<img src="/img/office-hours/938.jpg" style="max-width: 7in">-->
     <h2>Food</h2>
-    <table style="width: 5in; margin:auto;">
     {% for food in site.food %}
-    <tr><th colspan="2">{{ food.name }}</th></tr>
-    <tr><td>Price: {{ food.price }}</td><td><img src="{{ site.baseurl }}/img/office-hours/{{food.pic}}" style="max-width: 3in; "></td></tr>
+    <h4>{{ food.name }}</h4>
+    <p>Price: {{ food.price }}</p><img src="{{ site.baseurl }}/img/office-hours/{{food.pic}}" style="max-width: 4in; margin:auto;">
     {% endfor %}
-    </table>
     <h2>Hours</h2>
-    <table style="width: 5in; margin:auto;">
+    <table style="width: 8in; margin:auto; font-size: 20px">
     <tr><th></th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th></tr>
     {% for hour in site.hours %}
     <tr>
