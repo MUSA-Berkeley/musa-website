@@ -1,0 +1,30 @@
+<!-- Team Section -->
+    <section id="office-hours" class="content-section text-center">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12">
+    <h1>Office Hours</h1>
+    <p>Our office is 938 Evans, between the courtyard and the back elevators. Come pay us a visit to buy food, sweaters, and other goodies, get information about upcoming events, or just relax and chat about math and life!</p>
+    <!--<img src="/img/office-hours/938.jpg" style="max-width: 7in">-->
+    <h2>Food</h2>
+    {% for food in site.food %}
+    <img src="{{ site.baseurl }}/img/team/{{food.pic}}" style="max-width: 3in; float:right; clear:right;">
+    <h4 class="text-justify">{{ food.name }}</h4>
+    <p class="text-justify">Price: {{ food.price }} </p>
+    {% endfor %}
+    <h2>Hours</h2>
+    <table style="width: 5in; margin:auto;">
+    <tr><th></th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th></tr>
+    {% for hour in site.hours %}
+    <tr>
+        <td>{{ hour.time }}</td>
+        <td>{{ hour.monday }}</td>
+        <td>{{ hour.tuesday }}</td>
+        <td>{{ hour.wednesday }}</td>
+        <td>{{ hour.thursday }}</td>
+        <td>{{ hour.friday }}</td>
+    </tr>
+      </div>
+      </div>
+      </div>
+    </section>

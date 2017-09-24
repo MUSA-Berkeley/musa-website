@@ -136,6 +136,75 @@ Sperry’s distinguished career came to a premature end in 1950 when she was dis
 After retiring from teaching, Sperry dedicated her time to promote human rights through involvement in the American Civil Liberties Union, the League of Women Voters, and the Committee for a Sane Nuclear Policy. A remarkable philanthropist, she also gave to help those in need, claiming that to be happy, one should be “bold enough to ask the right questions, and brave enough to face the answers about the untouchable subject, money. ... Give 'till it hurts!”."
   pic:      sperry.jpg
 
+hours:
+- time: 10 AM
+  monday: Yu Ma
+  tuesday: Lakshmi Ramesh
+  wednesday: Yu Ma
+  thursday: Lakshmi Ramesh
+  friday: Aidan Backus
+- time: 11 AM
+  monday: Mahnoor Mian
+  tuesday: Jerry Wu
+  wednesday: Mahnoor Mian
+  thursday: Jerry Wu
+  friday: Aidan Backus
+- time: 12 PM
+  monday: Sung Hyup Lee
+  tuesday: Brian Burks
+  wednesday: Clark Lyons
+  thursday: --
+  friday: Sanat Mulay
+- time: 1 PM
+  monday: Cynthia Shen
+  tuesday: Brian Burks
+  wednesday: Clark Lyons
+  thursday: Ning McKenzie
+  friday: Sanat Mulay
+- time: 2 PM
+  monday: Margo Oka
+  tuesday: Ryan Shaw
+  wednesday: Cailan Li
+  thursday: Edgar Rodriguez
+  friday: Cailan Li
+- time: 3 PM
+  monday: Margo Oka
+  tuesday: Ryan Shaw
+  wednesday: Joshua Lin
+  thursday: Edgar Rodriguez
+  friday: Joshua Lin
+- time: 4 PM
+  monday: Cynthia Shen
+  tuesday: --
+  wednesday: --
+  thursday: Ning McKenzie
+  friday: --
+- time: 5 PM
+  monday: --
+  tuesday: --
+  wednesday: --
+  thursday: Sung Hyup Lee
+  friday: --
+
+food:
+- name: Ice cream sandwich
+  pic: IceCreamSandwich.jpg
+  price: $1.00
+- name: Soda
+  pic: Soda.jpg
+  price: $0.75
+- name: Muffin
+  pic: Muffin.jpg
+  price: $1.00
+- name: Cup noodles
+  pic: Snacks.jpg
+  price: $0.50
+- name: Trail mix
+  price: $0.75
+- name: Chips
+  pic: Chips.jpg
+  price: $0.50
+
 
 # Build settings
 markdown: kramdown
