@@ -117,16 +117,18 @@ retired:
   pic:      Mahrud_Sayrafi.jpg
 
 monday:
-- title:    The Fibonacci Sequence modulo p: Around and around we go
+- title:    The Fibonacci Sequence modulo p &mdash; Around and around we go
   speaker:  Alexander Youcis
   date:     9 October, 2017
   room:     740 Evans
   abstract: The Fibonacci sequence has, in the past decade or so, taken on an almost meme like quality. That being said, it is an interesting sequence of integers, the structure of which can get surprisingly complex. We will be interested in this talk in what sort of periodicity properties the Fibonacci sequence has. Of course, this can’t be the normal notion of periodicity (since the Fibonacci sequence is increasing). Instead, we mean the periodicity of the sequence modulo a prime p. It turns out that the study of such a problem naturally leads one to consider slightly more sophisticated problems in number theory and algebra.
+
 - title:    Sharks in the Shallows
   speaker:  Sri Kunnawalkam Elayvalli
   date:     25 September, 2017
   room:     740 Evans
   abstract: I will talk about problems in mathematics that are so easy to state that even your grandmother can understand them, but are so difficult to solve that no one ever in history has solved them. The interesting thing about the problems I will present is that they are not very famous in the public eye (unlike the twin prime conjecure, Goldbach's conjecture, the abc conjecture, and so on). The platter will include problems of various different flavors, like numbers, sets, triangles, points, sums, etc.
+
 - title:    To Infinity and Beyond &mdash; The strange world of ordinal arithmetic
   speaker:  Professor Richard E. Borcherds
   date:     11 September, 2017
