@@ -117,6 +117,11 @@ retired:
   pic:      Mahrud_Sayrafi.jpg
 
 monday:
+- title:    The Fibonacci Sequence modulo p: Around and around we go
+  speaker:  Alexander Youcis
+  date:     9 October, 2017
+  room:     740 Evans
+  abstract: The Fibonacci sequence has, in the past decade or so, taken on an almost meme like quality. That being said, it is an interesting sequence of integers, the structure of which can get surprisingly complex. We will be interested in this talk in what sort of periodicity properties the Fibonacci sequence has. Of course, this can’t be the normal notion of periodicity (since the Fibonacci sequence is increasing). Instead, we mean the periodicity of the sequence modulo a prime p. It turns out that the study of such a problem naturally leads one to consider slightly more sophisticated problems in number theory and algebra.
 - title:    Sharks in the Shallows
   speaker:  Sri Kunnawalkam Elayvalli
   date:     25 September, 2017
