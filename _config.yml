@@ -119,7 +119,7 @@ retired:
 monday:
 - title:    Homology theories and their applications
   speaker:  Kat Christianson
-  date:     16 October, 2017
+  date:     16 October, 2017 at 6 PM
   room:     740 Evans
   abstract: Homology is a powerful algebraic tool that arises naturally in a wide range of different areas of modern mathematics. The main goal of this talk is to provide an introduction to how homology theories are defined and how they are used in practice. We will focus on two standard homology theories in algebraic topology as examples. After laying some theoretical foundations for these two homology theories, we will consider a couple applications of those foundations to questions in geometry and commutative algebra.
 - title:    The Fibonacci Sequence modulo p &mdash; Around and around we go
