@@ -338,6 +338,10 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+.h4 {
+    margin-top:35px;
+}
+
 .team-member img {
     display: inline;
     width: 100%;
