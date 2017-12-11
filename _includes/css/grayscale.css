@@ -114,19 +114,19 @@ a:focus {
 
 .dropdown:hover .dropdown-menu {
     display: block;
-    color: #eb0;
+    color: #111;
     left: 0;
 }
 
 .dropdown-menu li a {
-    color: #eb0;
+    color: #111;
 }
 
 .navbar-header {
 }
 
 .navbar-custom a {
-    color: #eb0;
+    color: #111;
 }
 
 .navbar-custom .nav li.active {
@@ -334,7 +334,7 @@ section h3.section-subheading {
 }
 
 .h4 {
-    margin-top:35px;
+    margin-top:35px !important;
 }
 
 .team-member img {
