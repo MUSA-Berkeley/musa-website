@@ -106,7 +106,7 @@ a:focus {
 }
 
 .dropdown-menu {
-    width: fit-content;
+    width: 380px;
     border-radius: 10px;
     position: relative;
     background-color: #eee;
@@ -307,14 +307,12 @@ footer {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: #ccc;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: #ccc;
 }
 
 img::selection {
