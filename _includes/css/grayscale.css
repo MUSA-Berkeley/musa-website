@@ -34,17 +34,21 @@ ul {
     margin-top: -15px;
 }
 
-p, li, td {
+p, .resources li, td {
     margin: 0 0 15px;
     font-size: 12px;
     line-height: 1;
 }
 
 @media(min-width:767px) {
-    p, li, td {
+    p, td {
         margin: 0 0 20px;
         font-size: 17px;
         line-height: 1.5;
+    }
+
+    .resources li {
+        font-size: 17px;
     }
 }
 
