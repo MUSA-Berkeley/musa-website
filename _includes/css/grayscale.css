@@ -4,6 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/***** PAGE LAYOUT *********/
 html {
     width: 100%;
     height: 100%;
@@ -17,6 +18,17 @@ body {
     background-color: #eee;
 }
 
+.content-section {
+    padding-top: 5%;
+}
+
+@media(min-width:767px) {
+    .content-section {
+        padding-top: 150px;
+    }
+}
+
+/**** TEXT STYLES ***************************/
 h1,
 h2,
 h3,
@@ -25,21 +37,53 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.h4 {
+    margin-top:35px !important;
+}
+
+.team-member img {
+    display: inline;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 0;
+    border: 0px solid #fff;
+}
+
+.team-member h4 {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
 
 ul {
     margin-top: -15px;
 }
 
+/* All body text should be in one of these elts */
 p, .resource li, td {
     margin: 0 0 15px;
     font-size: 12px;
     line-height: 1;
 }
 
+/* Override for white monitors: bigger text */
 @media(min-width:767px) {
     p, td {
         margin: 0 0 20px;
@@ -52,10 +96,25 @@ p, .resource li, td {
     }
 }
 
+/* Override centering of text */
 .text-justify, .resource p {
     text-align: justify;
 }
 
+/**** IMAGE STYLES ********//
+img {
+    margin-bottom:20px;
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+/****** LINK STYLES ************************/
 a {
     color: {{ site.color.links }};
     -webkit-transition: all .2s ease-in-out;
@@ -73,11 +132,16 @@ a:focus {
     font-weight: 400;
 }
 
+.email {
+    color: #000;
+    background-color: #000;
+}
+
+/***** NAVBAR ************/
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #eee ;
 }
 
@@ -101,7 +165,7 @@ a:focus {
 }
 
 .dropdown-menu {
-    width: 300px;
+    width: 300px; /* Be wary of this! */
     border-radius: 10px;
     position: relative;
     background-color: #eee;
@@ -203,6 +267,7 @@ a:focus {
     }
 }
 
+/* 
 i.animated {
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 1s;
@@ -219,23 +284,49 @@ i.animated {
     -moz-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
+} */
+
+/**** SOCIAL MEDIA BUTTONS ******/
+.btn {
+    color: #eb0;
+    text-transform: uppercase;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
-
-.content-section {
-    padding-top: 5%;
+.btn-default {
+    border: 1px solid {{ site.color.links }};
+    color: {{ site.color.links }};
+    background-color: transparent;
 }
 
-@media(min-width:767px) {
-    .content-section {
-        padding-top: 150px;
-    }
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid {{ site.color.links }};
+    outline: 0;
+    color: black;
+    background-color: {{ site.color.links }};
 }
 
-.email {
-    color: #000;
-    background-color: #000;
+/***** OCF FOOTER ********/
+footer {
+    padding: 50px 0;
+    margin: 0;
 }
+
+::-moz-selection {
+    text-shadow: none;
+    background: #ccc;
+}
+
+::selection {
+    text-shadow: none;
+    background: #ccc;
+}
+
+/****** FOR SPECIFIC PAGES *******/
 
 #hoodies {
     width: 100%;
@@ -268,87 +359,5 @@ i.animated {
     height: 700px;
     text-align: center;
     background: #fff;
-}
-
-.btn {
-    color: #eb0;
-    text-transform: uppercase;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.btn-default {
-    border: 1px solid {{ site.color.links }};
-    color: {{ site.color.links }};
-    background-color: transparent;
-}
-
-.btn-default:hover,
-.btn-default:focus {
-    border: 1px solid {{ site.color.links }};
-    outline: 0;
-    color: black;
-    background-color: {{ site.color.links }};
-}
-
-
-footer {
-    padding: 50px 0;
-    margin: 0;
-}
-
-::-moz-selection {
-    text-shadow: none;
-    background: #ccc;
-}
-
-::selection {
-    text-shadow: none;
-    background: #ccc;
-}
-
-img {
-    margin-bottom:20px;
-}
-
-img::selection {
-    background: 0 0;
-}
-
-img::-moz-selection {
-    background: 0 0;
-}
-
-section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 40px;
-}
-
-section h3.section-subheading {
-    margin-bottom: 25px;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-.h4 {
-    margin-top:35px !important;
-}
-
-.team-member img {
-    display: inline;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 0;
-    border: 0px solid #fff;
-}
-
-.team-member h4 {
-    margin-top: 15px;
-    margin-bottom: 0;
 }
 
