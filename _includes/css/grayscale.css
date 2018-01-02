@@ -77,10 +77,14 @@ ul {
 }
 
 /* All body text should be in one of these elts */
-p, .resource li, td {
+p, td {
     margin: 0 0 15px;
     font-size: 14px;
     line-height: 1;
+}
+
+.resource li {
+    font-size: 14px;
 }
 
 /* Override for white monitors: bigger text */
@@ -106,9 +110,7 @@ p, .resource li, td {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: auto;
-    height: auto;
-    max-width: 100%;
+    width: 300px;
 }
 
 @media(min-width:767px) {
