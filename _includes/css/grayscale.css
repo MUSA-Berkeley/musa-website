@@ -120,6 +120,10 @@ a:focus {
     color: #11505d;
 }
 
+h2 a {
+    text-decoration: none;
+}
+
 /****** HEADER ***********/
 nav {
     text-align: center;
