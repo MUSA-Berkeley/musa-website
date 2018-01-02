@@ -1,0 +1,7 @@
+    <section id="math-monday" class="content-section resource">
+    <h3>Spring 2018</h3>
+    {% for talk in site.monday %}
+    <h4>{{ talk.title }}</h4>
+    <p><span style="font-weight: 500;">Speaker: </span> {{ talk.speaker }} &mdash; {{ talk.date }} in {{ talk.room }}</p>
+    <p>{{ talk.abstract}}</p>
+    </section>
