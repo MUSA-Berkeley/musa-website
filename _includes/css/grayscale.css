@@ -5,27 +5,14 @@
  */
 
 /***** PAGE LAYOUT *********/
-html {
-    width: 100%;
-    height: 100%;
-}
-
 body {
-    width: 100%;
-    height: 100%;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: black;
-    background-color: #eee;
 }
 
-.content-section {
-    padding-top: 5%;
-}
-
-@media(min-width:767px) {
-    .content-section {
-        padding-top: 150px;
-    }
+section {
+    width: 1170px;
+    max-width: 100%;
+    margin: auto;
 }
 
 /**** TEXT STYLES ***************************/
@@ -39,6 +26,11 @@ h6 {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
+}
+
+section h1 {
+    font-size: 200%;
+    text-align: center;
 }
 
 section h2.section-heading {
@@ -57,20 +49,6 @@ section h3.section-subheading {
 .h4 {
     margin-top:35px !important;
 }
-
-.team-member img {
-    display: inline;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 0;
-    border: 0px solid #fff;
-}
-
-.team-member h4 {
-    margin-top: 15px;
-    margin-bottom: 0;
-}
-
 
 ul {
     margin-top: -15px;
@@ -115,6 +93,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 300px;
+    padding-bottom: 20px;
 }
 
 @media(min-width:767px) {
@@ -123,6 +102,7 @@ img {
         margin-left: auto;
         margin-right: auto;
         width: 900px;
+        padding-bottom: 20px;
     }
 }
 
@@ -140,217 +120,30 @@ a:focus {
     color: #11505d;
 }
 
-.light {
-    font-weight: 400;
-}
-
-.email {
-    color: #000;
-    background-color: #000;
-}
-
-/***** NAVBAR ************/
-.navbar-custom {
-    margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform: uppercase;
-    background-color: #eee ;
-}
-
-.navbar-custom .navbar-brand {
-    font-weight: 700;
-}
-
-.navbar-custom .navbar-brand:focus {
-    outline: 0;
-}
-
-.navbar-custom .navbar-brand .navbar-toggle {
-    padding: 4px 6px;
-    font-size: 16px;
-    color: #fff;
-}
-
-.navbar-custom .navbar-brand .navbar-toggle:focus,
-.navbar-custom .navbar-brand .navbar-toggle:active {
-    outline: 0;
-}
-
-.dropdown-menu {
-    width: 300px; /* Be wary of this! */
-    border-radius: 10px;
-    position: relative;
-    background-color: #eee;
-}
-@media(min-width:767px) {
-  .dropdown-menu {
-    position: absolute;
-  }
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-    color: #111;
-    left: 0;
-}
-
-.dropdown-menu li a {
-    color: #111;
-}
-
-.navbar-header {
-}
-
-.navbar-custom a {
-    color: #111;
-}
-
-.navbar-custom .nav li.active {
-    outline: none;
-    background-color: rgba(255,255,255,.3);
-}
-
-.navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a.active {
-    outline: 0;
-    background-color: rgba(255,255,255,.3);
-}
-
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        border-bottom: 0;
-        letter-spacing: 1px;
-        background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-        background-color: #eee;
-    }
-
-    .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
-    }
-}
-
-.intro {
-    display: table;
-    width: 100%;
-    background: url({{ site.baseurl }}/img/intro-bg2.jpg) no-repeat center scroll;
-    background-position: center top;
-    background-size: 120%;
-    background-color: #eee;
-}
-
-.intro .intro-body {
-    display: table-cell;
+/****** HEADER ***********/
+nav {
+    width: 1170px;
+    max-width: 100%;
+    margin: auto;
     text-align: center;
-    vertical-align: bottom;
-    font-family: "Times New Roman", Times, sans-serif;
-    color: #eb0;
+    font-size: 15px;
 }
 
-.intro .intro-body .intro-text {
-    margin-top: 60%;
+nav a {
+    color: rgb(0,0,128);
+    text-decoration: none;
+    text-decoration-color: rgb(0,0,128);
+    text-decoration-style: solid;
     font-size: 18px;
 }
 
-@media(min-width:767px) {
-    .intro {
-        height: 100%;
-        margin-top: -5%;
-        background-size: cover;
-    }
-    .intro .intro-body .intro-text {
-        vertical-align: bottom;
-        margin-bottom: 0px;
-        font-size: 25px;
-    }
-}
-
-/**** SOCIAL MEDIA BUTTONS ******/
-.btn {
-    color: #eb0;
-    text-transform: uppercase;
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.btn-default {
-    border: 1px solid {{ site.color.links }};
-    color: {{ site.color.links }};
-    background-color: transparent;
-}
-
-.btn-default:hover,
-.btn-default:focus {
-    border: 1px solid {{ site.color.links }};
-    outline: 0;
-    color: black;
-    background-color: {{ site.color.links }};
+nav a:hover, nav a:focus {
+    text-decoration: underline;
 }
 
 /***** OCF FOOTER ********/
 footer {
     padding: 50px 0;
     margin: 0;
-}
-
-::-moz-selection {
-    text-shadow: none;
-    background: #ccc;
-}
-
-::selection {
-    text-shadow: none;
-    background: #ccc;
-}
-
-/****** FOR SPECIFIC PAGES *******/
-
-#hoodies {
-    width: 100%;
-    padding: 15% 0%;
-    color: #fff;
-    background-image: url({{ site.baseurl }}/img/hoodie1.jpg), url({{ site.baseurl }}/img/hoodie2.jpg);
-    background-size: cover;
-}
-
-#professional {
-    width: 100%;
-    padding: 15% 0%;
-    color: #fff;
-    background: url({{ site.baseurl }}/img/professional-bg.jpg) no-repeat center center scroll;
-    background-size: cover;
-}
-
-#academic {
-    width: 100%;
-    padding: 15% 0%;
-    color: #fff;
-    background: url({{ site.baseurl }}/img/academic-bg.jpg) no-repeat center center scroll;
-    background-size: cover;
-}
-
-#group {
-    margin: auto;
-    padding: 0 0;
-    width: 100%;
-    height: 700px;
     text-align: center;
-    background: #fff;
 }
-
