@@ -78,7 +78,11 @@ p, td {
     }
 }
 
-/* Override centering of text */
+/* Centering/justifying of text */
+.text-center {
+    text-align: center;
+}
+
 .text-justify, .resource p {
     text-align: justify;
 }
@@ -122,26 +126,37 @@ a:focus {
 
 /****** HEADER ***********/
 nav {
-    width: 1170px;
-    max-width: 100%;
-    margin: auto;
     text-align: center;
-    font-size: 15px;
-    margin-bottom: 20px;
+    font-size: 10px;
 }
 
 nav a {
-    color: rgb(0,0,128);
     text-decoration: none;
-    text-decoration-color: rgb(0,0,128);
-    text-decoration-style: solid;
-    font-size: 21px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
-nav a:hover, nav a:focus {
-    text-decoration: underline;
+@media(min-width:767px) {
+    nav {
+        width: 1170px;
+        max-width: 100%;
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    nav a {
+        color: rgb(0,0,128);
+        text-decoration: none;
+        text-decoration-color: rgb(0,0,128);
+        text-decoration-style: solid;
+        font-size: 21px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    nav a:hover, nav a:focus {
+        text-decoration: underline;
+    }
 }
 
 /***** OCF FOOTER ********/
