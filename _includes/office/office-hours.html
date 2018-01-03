@@ -1,19 +1,8 @@
 <!-- Team Section -->
     <section id="office-hours" class="content-section resource">
-    <h2>Office Hours</h2>
+    <h1>Office Hours</h1>
     <p>Our office is 938 Evans, between the courtyard and the back elevators. Come pay us a visit to buy food, sweaters, and other goodies, get information about upcoming events, or just relax and chat about math and life!</p>
-    <h3>Food and Hoodies</h3>
-    <table class="imgmap">
-    {% for food in site.food %}
-    <tr><td class="img"><img src="{{ site.baseurl }}/img/office-hours/{{food.pic}}"></td>
-    <td class="map">
-    <h4>{{ food.name }}</h4>
-    <p><strong>Price</strong>: {{ food.price }}</p>
-    <p>{{ food.notes }}</p>
-    </tr>
-    {% endfor %}
-    </table>
-    <h3>Hours</h3>
+    <h2>Hours</h2>
     <table style="width: 10in; margin:auto; font-size: 20px">
     <tr><th style="text-align:center;"></th><th style="text-align:center;">Monday</th><th style="text-align:center;">Tuesday</th><th style="text-align:center;">Wednesday</th><th style="text-align:center;">Thursday</th><th style="text-align:center;">Friday</th></tr>
     {% for hour in site.hours %}
@@ -27,7 +16,15 @@
     </tr>
     {% endfor %}
     </table>
-      </div>
-      </div>
-      </div>
+    <h2>Food and Hoodies</h2>
+    <table class="imgmap">
+    {% for food in site.food %}
+    <tr><td class="img"><img src="{{ site.baseurl }}/img/office-hours/{{food.pic}}"></td>
+    <td class="map">
+    <h4>{{ food.name }}</h4>
+    <p><strong>Price</strong>: {{ food.price }}</p>
+    <p>{{ food.notes }}</p>
+    </tr>
+    {% endfor %}
+    </table>
     </section>
