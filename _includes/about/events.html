@@ -3,9 +3,13 @@
             <h2>Weekly Events</h2>
 <p>We hold events every week throughout the semester. Typically, our events are held at 
 <strong>6pm-8pm at Evans 1015</strong>, the top floor lounge of Evans Hall. Our upcoming events are listed 
-on the right. To see the full list of events, see our 
-<a href="https://calendar.google.com/calendar/embed?src=musa.berkeley%40gmail.com">Google calendar</a>
-or the mailing list archive below.</p>
-
-<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23000000&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%2329527A&amp;src=musa.berkeley%40gmail.com&amp;color=%235229A3&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
-    </section>
+on the right.
+<table class="imgmap">
+{{ for event in site.events }}
+<tr><td class="img">
+<h4> {{ event.name }}</h4>
+<p> {{ event.date }} &mdash; {{ event.location }}</p>
+</td><td class="map">
+<p> {{ event.description }}</p>
+</td></tr>
+</section>

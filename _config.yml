@@ -20,6 +20,14 @@ social:
   - title: facebook
     url: https://www.facebook.com/groups/musa.berkeley/
 
+### EDIT THIS ###
+# Events
+events:
+- name:        German language
+  location:    The Hood
+  date:        Before Aidan's final
+  description: Measure is not a topological property.
+
 # Team names, titles and social links
 people:
 - name:     Cailan Li
@@ -115,13 +123,6 @@ retired:
   position: President
   email:    mahrud@berkeley.edu
   pic:      Mahrud_Sayrafi.jpg
-spotlights:
-- name: Pauline Sperry
-  title: First Female Assistant and Associate Professor at UC Berkeley.</p>
-  desc: "2017 marks the centennial of the addition of the first woman to become an associate professor in the Berkeley Math Department – Pauline Sperry. Born in 1885 in Massachusetts, she studied math and music in Smith College, where she later returned for graduate work and teaching mathematics. She continued her graduate studies in University of Chicago, where she completed her dissertation in projective differential geometry and in 1916 was awarded a doctorate. Then in 1917, a hundred years ago, she joined UC Berkeley as an instructor, promoted to assistant professor in 1923 and eventually to associate professor in 1932, both demonstrating her brilliance in advanced mathematics as the first woman to achieve those positions in Berkeley. By 1950, she had advised five Ph.D. candidates, published a bibliography and two textbooks, and mentored many women in her decades of service to the Berkeley Math Department.
-Sperry’s distinguished career came to a premature end in 1950 when she was dismissed for refusing to sign an oath of loyalty at the height of the anti-communist era. She believed as a matter of principle that the oath would encroach on political freedom. After 2 years, the court ruled in her and other non-signer’s favor, but as she was already passed the retirement age, she was reinstated as associate professor emerita. Later, the University President Robert G. Sproul praised her “exceptional ability as a teacher in a subject in which the quality of teaching can be responsible in large measure for the difference between brilliance and mediocrity in a student's work.”
-After retiring from teaching, Sperry dedicated her time to promote human rights through involvement in the American Civil Liberties Union, the League of Women Voters, and the Committee for a Sane Nuclear Policy. A remarkable philanthropist, she also gave to help those in need, claiming that to be happy, one should be “bold enough to ask the right questions, and brave enough to face the answers about the untouchable subject, money. ... Give 'till it hurts!”."
-  pic:      sperry.jpg
 
 hours:
 - time: 10 AM
@@ -178,7 +179,7 @@ food:
   pic: Hoodie.jpg
   price: $30.00
 - name: T-Shirt
-  pic:
+  pic: Placeholder.jpg
   price: $15.00
 - name: Ice cream sandwich
   pic: IceCreamSandwich.jpg
@@ -229,6 +230,14 @@ mondayF2017:
   date:     11 September, 2017
   room:     740 Evans
   abstract: Beyond the usual numbers 0, 1, 2, 3, ..., lie Cantor's countable ordinal numbers ω, ω+1, ..., ω+ω, ..., ε<sub>0</sub>, .... In some way their arithmetic is similar to the natural numbers; one can add, multiply and raise them to powers and define primes and so on. However in other ways their arithmetic looks a little strange; for example, 1+ω < ω+1.
+
+spotlights:
+- name: Pauline Sperry
+  title: First Female Assistant and Associate Professor at UC Berkeley.</p>
+  desc: "2017 marks the centennial of the addition of the first woman to become an associate professor in the Berkeley Math Department – Pauline Sperry. Born in 1885 in Massachusetts, she studied math and music in Smith College, where she later returned for graduate work and teaching mathematics. She continued her graduate studies in University of Chicago, where she completed her dissertation in projective differential geometry and in 1916 was awarded a doctorate. Then in 1917, a hundred years ago, she joined UC Berkeley as an instructor, promoted to assistant professor in 1923 and eventually to associate professor in 1932, both demonstrating her brilliance in advanced mathematics as the first woman to achieve those positions in Berkeley. By 1950, she had advised five Ph.D. candidates, published a bibliography and two textbooks, and mentored many women in her decades of service to the Berkeley Math Department.
+Sperry’s distinguished career came to a premature end in 1950 when she was dismissed for refusing to sign an oath of loyalty at the height of the anti-communist era. She believed as a matter of principle that the oath would encroach on political freedom. After 2 years, the court ruled in her and other non-signer’s favor, but as she was already passed the retirement age, she was reinstated as associate professor emerita. Later, the University President Robert G. Sproul praised her “exceptional ability as a teacher in a subject in which the quality of teaching can be responsible in large measure for the difference between brilliance and mediocrity in a student's work.”
+After retiring from teaching, Sperry dedicated her time to promote human rights through involvement in the American Civil Liberties Union, the League of Women Voters, and the Committee for a Sane Nuclear Policy. A remarkable philanthropist, she also gave to help those in need, claiming that to be happy, one should be “bold enough to ask the right questions, and brave enough to face the answers about the untouchable subject, money. ... Give 'till it hurts!”."
+  pic:      sperry.jpg
 
 # Build settings
 markdown: kramdown
