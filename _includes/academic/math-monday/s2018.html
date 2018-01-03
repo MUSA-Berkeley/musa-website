@@ -5,7 +5,10 @@
     <tr><td class="img">
     <h4>{{ talk.title }}</h4>
     <p>{{ talk.date }}&mdash;{{ talk.room }}</p>
+    </td><td class="map">
     <p><strong>Speaker:</strong> {{ talk.speaker }}</p>
     <p>{{ talk.abstract}}</p>
+    </td></tr>
     {% endfor %}
+    </table>
     </section>

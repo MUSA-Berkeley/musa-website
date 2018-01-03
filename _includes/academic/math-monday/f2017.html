@@ -4,8 +4,11 @@
     {% for talk in site.mondayF2017 %}
     <tr><td class="img">
     <h4>{{ talk.title }}</h4>
+    </td><td class="map">
     <p>{{ talk.date }}&mdash;{{ talk.room }}</p>
     <p><strong>Speaker:</strong> {{ talk.speaker }}</p>
     <p>{{ talk.abstract}}</p>
+    </td></tr>
     {% endfor %}
+    </table>
     </section>
