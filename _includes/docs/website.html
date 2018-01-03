@@ -22,6 +22,7 @@ fields:
 <p>The table is fields, and its rows are "rational numbers" and "Galois field of order p".
 Each row contains the entries "name", "symbol", "card", and "abs_galois". Rows are delineated
 by hyphens, and cols are delineated by newlines followed by colons.</p>
+
 <p>So to add a new entry, you would, add, below the Galois field entry:</p>
 <pre>
 -name:       real numbers
@@ -29,7 +30,11 @@ by hyphens, and cols are delineated by newlines followed by colons.</p>
  card:       continuum
  abs_galois: cyclic of order 2
 </pre>
-<p>Be warned that since linebreaks and - and : are special characters in YML, you can't use
+
+<p>Once you've finished editing, run ./_build.sh "&lt;your edit summary here&gt;" and enter your
+GitHub login to save to the server. Make sure you check online that you didn't break anything
+afterwards!</p>
+<p>IMPORTANT: Be warned that since linebreaks and - and : are special characters in YML, you can't use
 them in the YML file without breaking everything. (Otherwise, this process is idiot-proof,
 so seriously don't this!!) Luckily there's an easy fix. Instead of having a linebreak, insert
 the HTML <code>&lt;/p&gt;&lt;p&gt;</code>. Likewise, <code>&amp;mdash;</code> is a dash (much better than --!)
@@ -40,29 +45,47 @@ and <code>&amp;gt;</code>.</p>
 <pre style="white-space: pre-wrap">
 polish_spaces:
 -name:   Cantor set
- symbol: 2&lt;sup&gt;&lt;strong&gt;N&lt;/strong&ht;&lt;/sup&gt;
+ symbol: 2&lt;sup&gt;&lt;strong&gt;N&lt;/strong&gt;&lt;/sup&gt;
  card:   continuum
  desc:   This space is often taught in introductory analysis and topology classes as a useful counterexample&mdash;it is perfect and uncountable but contains no segment and, in fact, can be embedded in &lt;strong&gt;R&lt;/strong&gt; to be measure zero. The existence of an uncountable Lebesgue null set is enough to imply that if &amp;beta; is the cardinality of the Borel sets and &amp;Gamma; is the cardinality of the measurable sets then &amp;beta; &amp;lt; &amp;Gamma;.&lt;/p&gt;&lt;p&gt;More than a convenient counterexample, the Cantor set satisfies a universal property in the category of compact metrizable spaces (and in particular compact Polish spaces&#58; any such space can be written as the image of 2&lt;sup&gt;&lt;strong&gt;N&lt;/strong&gt;&lt;/sup&gt; under a continuous map. As its symbol suggests, the Cantor set is the countable Cartesian power of the discrete space of cardinality 2.
 </pre>
 <p>This will render as</p>
 
+<table><tr><td class="img"><h4>CANTOR SET</h4><p>2<sup><strong>N</strong></sup>&mdash;cardinality of the continuum</p></td>
+<td class="map">
 <p>This space is often taught in introductory analysis and topology classes as a
          useful counterexample&mdash;it is perfect and uncountable but contains no segment
          and, in fact, can be embedded in <strong>R</strong> to be measure zero.
          The existence of an uncountable Lebesgue null set is enough to imply that if
-         &beta; is the cardinality of the Borel sets and &Gamma; is the cadinality of
-         the measurable sets then &beta; &lt; &Gamma.</p>
+         &beta; is the cardinality of the Borel sets and &Gamma; is the cardinality of
+         the measurable sets then &beta; &lt; &Gamma;.</p>
          <p>More than a convenient
          counterexample, the Cantor set satisfies a universal property in the category
          of compact metrizable spaces (and in particular compact Polish spaces&#58;
          any such space can be written as the image of 2<sup><strong>N</strong></sup> under
          a continuous map. As its symbol suggests, the Cantor set is the countable Cartesian
          power of the discrete space of cardinality 2.</p>
-
-<p>Once you've finished editing, run ./_build.sh "&lt;your edit summary here&gt;" and enter your
-GitHub login to save to the server. Make sure you check online that you didn't break anything
-afterwards!</p>
-
+</td></tr></table>
 <h3>The file structure &mdash; For webmasters</h3>
-
+<p>Files whose names begin with _ will not be made public. On the other hand, files in _includes can be included using the %include command.
+_includes/nav.html and _includes/footer.html will automatically be put in any pages. index.html will show when the site first loads.</p>
+<p>CSS is stored in _includes/css/grayscale.css.</p>
 <h3>Git, Bash, Jekyll, and all that &mdash; For everyone</h3>
+<p>You will need to have Jekyll and Git installed on your computer to edit the website. To run the scripts Mahrud and I have prepared,
+you will also need to have access to Bash. If you're on a Mac or in some Linux distribution, this is easy (and insalling git and jekyll
+is easy as well, thanks to package managers). If you're on Windows, you're out of luck.</p>
+<p>Assuming you have access to Mac or Linux, open the command line and type the following to install Jekyll:</p>
+<pre>gem install jekyll bundler</pre>
+<p>If you don't have RubyGems (it's built into most machines) you'll have to install Ruby and RubyGems (Google it).</p>
+<p>Once you have RubyGems, Jekyll, and Git all running, make a MUSA folder and cd into it, then run the following:</p>
+<pre>git clone https://github.com/MUSA-Berkeley/musa-website.git</pre>
+<p>Of course this won't do anything if you don't have access to the MUSA repo. Ask your webmaster to add your GitHub account.</p>
+<p>From here you can edit files, but if you don't know what something does don't touch it.</p>
+<p>To save and upload, type the following from the /musa-website/ directory:</p>
+<pre>./_build.sh "&lt;my edit summary&gt;"</pre>
+<p>Jekyll will run and build the site in _site. If you broke something, you'll get a red flag; if this happens Ctrl+C out.
+Otherwise, it will prompt you for your username and password on GitHub. Enter them, and wait about 15 seconds. Then open your
+browser, go to the page you just edited, and hit Ctrl+F5 to purge your cache; this will show you the updated site.</p>
+<p>If something goes wrong and you don't know how to use Git, please contact the webmaster instead of trying to merge branches
+or something. We don't want a repeat of that one time BMT broke Git, and that one other time BMT broke Git.</p>
+</section>
