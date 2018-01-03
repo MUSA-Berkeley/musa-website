@@ -60,6 +60,7 @@ p, td {
 
 .resource li {
     font-size: 14px;
+    line-height: 1;
 }
 
 /* Override for white monitors: bigger text */
@@ -72,6 +73,7 @@ p, td {
 
     .resource li {
         font-size: 17px;
+        line-height: 1.5;
     }
 }
 
@@ -105,6 +107,27 @@ img {
         width: 900px;
         padding-bottom: 20px;
     }
+}
+
+.imgmap {
+    width: 100%;
+}
+
+.imgmap, .imgmap tr, .imgmap td {
+    border: 0;
+}
+
+.imgmap tr {
+    border-bottom: 1px solid;
+}
+
+.imgmap img {
+    width: 300px;
+    max-width: 30%;
+}
+
+.imgmap map {
+    text-align: center;
 }
 
 /****** LINK STYLES ************************/
