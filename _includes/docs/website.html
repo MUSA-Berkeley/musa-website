@@ -11,11 +11,11 @@ be found in the main directory, /musa_website/.</p>
 <pre>
 fields:
 -name:       rational numbers
- symbol:     <strong>Q</strong>
+ symbol:     &lt;strong&gt;Q&lt;/strong&gt;
  card:       countable
  abs_galois: ???
 -name:       Galois field of order p (p a prime)
- symbol:     <strong>Z</strong><sub>p</sup>
+ symbol:     &lt;strong&gt;Z&lt;/strong&gt;&lt;sub&gt;p&lt;/sup&gt;
  card:       p
  abs_galois: A sexy inverse limit
 </pre>
@@ -25,30 +25,34 @@ by hyphens, and cols are delineated by newlines followed by colons.</p>
 <p>So to add a new entry, you would, add, below the Galois field entry:</p>
 <pre>
 -name:       real numbers
- symbol:     <strong>R</strong>
+ symbol:     &lt;strong&gt;R&lt;/strong&gt;
  card:       continuum
  abs_galois: cyclic of order 2
 </pre>
 <p>Be warned that since linebreaks and - and : are special characters in YML, you can't use
 them in the YML file without breaking everything. (Otherwise, this process is idiot-proof,
 so seriously don't this!!) Luckily there's an easy fix. Instead of having a linebreak, insert
-the HTML <pre></p><p></pre>. Likewise, <pre>&mdash;</pre> is a dash (much better than --!)
-and <pre>&#58;</pre> escapes a colon. So you might have something like this:</p>
-<pre>
+the HTML <code>&lt;/p&gt;&lt;p&gt;</code>. Likewise, <code>&amp;mdash;</code> is a dash (much better than --!)
+and <code>&amp;#58;</code> escapes a colon. Furthermore, <code>&lt;</code>, <code>&amp;</code>, and <code>&gt;</code>
+will not be rendered correctly in HTML, so you need to instead use <code>&amp;lt;</code>, <code>&amp;amp;</code>,
+and <code>&amp;gt;</code>.</p>
+<p>So you might have something like this (sans linebreaks of course):</p>
+<pre style="white-space: pre-wrap">
 polish_spaces:
 -name:   Cantor set
- symbol: 2<sup><strong>N</strong></sup>
+ symbol: 2&lt;sup&gt;&lt;strong&gt;N&lt;/strong&ht;&lt;/sup&gt;
  card:   continuum
- desc:   This space is often taught in introductory analysis and topology classes as a useful counterexample&mdash;it is perfect and uncountable but contains no segment and, in fact, can be embedded in <strong>R</strong> to be measure zero. The fact that it can also be embedded in <strong>R</strong> with a positive measure is enough to imply that Riemann integrability is not preserved under composition with a homeomorphism mapping <strong>R</strong> onto itself.</p><p>More than a convenient  counterexample, the Cantor set satisfies a universal property in the category of compact metrizable spaces (and in particular compact Polish spaces&#58; any such space can be written as the image of 2<sup><strong>N</strong></sup> under a continuous map. As its symbol suggests, the Cantor set is the countable Cartesian power of the discrete space of cardinality 2.
+ desc:   This space is often taught in introductory analysis and topology classes as a useful counterexample&mdash;it is perfect and uncountable but contains no segment and, in fact, can be embedded in &lt;strong&gt;R&lt;/strong&gt; to be measure zero. The existence of an uncountable Lebesgue null set is enough to imply that if &amp;beta; is the cardinality of the Borel sets and &amp;Gamma; is the cardinality of the measurable sets then &amp;beta; &amp;lt; &amp;Gamma;.&lt;/p&gt;&lt;p&gt;More than a convenient counterexample, the Cantor set satisfies a universal property in the category of compact metrizable spaces (and in particular compact Polish spaces&#58; any such space can be written as the image of 2&lt;sup&gt;&lt;strong&gt;N&lt;/strong&gt;&lt;/sup&gt; under a continuous map. As its symbol suggests, the Cantor set is the countable Cartesian power of the discrete space of cardinality 2.
 </pre>
 <p>This will render as</p>
 
 <p>This space is often taught in introductory analysis and topology classes as a
          useful counterexample&mdash;it is perfect and uncountable but contains no segment
-         and, in fact, can be embedded in <strong>R</strong> to be measure zero. The fact
-         that it can also be embedded in <strong>R</strong> with a positive measure is enough
-         to imply that Riemann integrability is not preserved under composition with a
-         homeomorphism mapping <strong>R</strong> onto itself.</p><p>More than a convenient
+         and, in fact, can be embedded in <strong>R</strong> to be measure zero.
+         The existence of an uncountable Lebesgue null set is enough to imply that if
+         &beta; is the cardinality of the Borel sets and &Gamma; is the cadinality of
+         the measurable sets then &beta; &lt; &Gamma.</p>
+         <p>More than a convenient
          counterexample, the Cantor set satisfies a universal property in the category
          of compact metrizable spaces (and in particular compact Polish spaces&#58;
          any such space can be written as the image of 2<sup><strong>N</strong></sup> under
