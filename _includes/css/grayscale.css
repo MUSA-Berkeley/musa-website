@@ -108,6 +108,7 @@ img {
     }
 }
 
+/******* TABLE FORMATTING **********/
 .imgmap {
     width: 100%;
 }
@@ -121,9 +122,13 @@ img {
     max-width: 100%;
 }
 
+.imgmap .img h4 {
+    text-align: center;
+    margin: 0;
+}
+
 .imgmap .img p {
     text-align: center;
-    vertical-align: middle;
 }
 
 .imgmap .map {
