@@ -28,6 +28,14 @@ events:
   date:        Before Aidan's final
   description: Measure is not a topological property.
 
+# Math Mondays
+monday:
+- title:    To be announced!
+  speaker:  John R. Steel
+  date:     29 January, 2018 at 6 PM
+  room:     740 Evans
+  abstract: To be announced!
+
 # Team names, titles and social links
 people:
 - name:     Cailan Li
@@ -55,7 +63,7 @@ people:
   pic:      Yu_Ma.jpg
 
 - name:     Aidan Backus
-  position: Outreach Chair
+  position: Outreach Chair, Webmaster
   pic:      Aidan_Backus.jpg
 
 - name:     Ning McKenzie
@@ -97,32 +105,6 @@ people:
 - name:     Sanat Mulay
   position: Social Chair
   pic:      Sanat_Mulay.jpg
-
-retired:
-- name:     Irra Na
-  position: Professional Chair
-  pic:      Irra_Na.jpg
-
-- name:     Ruta Jawale
-  position: Publicity Chair
-  pic:      Ruta_Jawale.jpg
-
-- name:     Victor Hakim
-  position: Social Chair
-  pic:      Victor_Hakim.jpg
-
-- name:     Anna Leskova
-  position: Outreach Chair
-  pic:      Anna_Leskova.jpg
-
-- name:     Brandon Van Over
-  position: Academic Chair
-  pic:      Brandon_Van_Over.jpg
-
-- name:     Mahrud Sayrafi
-  position: President
-  email:    mahrud@berkeley.edu
-  pic:      Mahrud_Sayrafi.jpg
 
 hours:
 - time: 10 AM
@@ -179,7 +161,7 @@ food:
   pic: Hoodie.jpg
   price: $30.00
 - name: T-Shirt
-  pic: Placeholder.jpg
+  pic: placeholder.jpg
   price: $15.00
 - name: Ice cream sandwich
   pic: IceCreamSandwich.jpg
@@ -230,6 +212,32 @@ mondayF2017:
   date:     11 September, 2017
   room:     740 Evans
   abstract: Beyond the usual numbers 0, 1, 2, 3, ..., lie Cantor's countable ordinal numbers ω, ω+1, ..., ω+ω, ..., ε<sub>0</sub>, .... In some way their arithmetic is similar to the natural numbers; one can add, multiply and raise them to powers and define primes and so on. However in other ways their arithmetic looks a little strange; for example, 1+ω < ω+1.
+
+retired:
+- name:     Irra Na
+  position: Professional Chair
+  pic:      Irra_Na.jpg
+
+- name:     Ruta Jawale
+  position: Publicity Chair
+  pic:      Ruta_Jawale.jpg
+
+- name:     Victor Hakim
+  position: Social Chair
+  pic:      Victor_Hakim.jpg
+
+- name:     Anna Leskova
+  position: Outreach Chair
+  pic:      Anna_Leskova.jpg
+
+- name:     Brandon Van Over
+  position: Academic Chair
+  pic:      Brandon_Van_Over.jpg
+
+- name:     Mahrud Sayrafi
+  position: President
+  email:    mahrud@berkeley.edu
+  pic:      Mahrud_Sayrafi.jpg
 
 spotlights:
 - name: Pauline Sperry
