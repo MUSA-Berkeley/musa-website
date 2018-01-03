@@ -115,31 +115,6 @@ retired:
   position: President
   email:    mahrud@berkeley.edu
   pic:      Mahrud_Sayrafi.jpg
-
-mondayF2017:
-- title:    Homology theories and their applications
-  speaker:  Kat Christianson
-  date:     16 October, 2017 at 6 PM
-  room:     740 Evans
-  abstract: Homology is a powerful algebraic tool that arises naturally in a wide range of different areas of modern mathematics. The main goal of this talk is to provide an introduction to how homology theories are defined and how they are used in practice. We will focus on two standard homology theories in algebraic topology as examples. After laying some theoretical foundations for these two homology theories, we will consider a couple applications of those foundations to questions in geometry and commutative algebra.
-- title:    The Fibonacci Sequence modulo p &mdash; Around and around we go
-  speaker:  Alexander Youcis
-  date:     9 October, 2017
-  room:     740 Evans
-  abstract: The Fibonacci sequence has, in the past decade or so, taken on an almost meme like quality. That being said, it is an interesting sequence of integers, the structure of which can get surprisingly complex. We will be interested in this talk in what sort of periodicity properties the Fibonacci sequence has. Of course, this can’t be the normal notion of periodicity (since the Fibonacci sequence is increasing). Instead, we mean the periodicity of the sequence modulo a prime p. It turns out that the study of such a problem naturally leads one to consider slightly more sophisticated problems in number theory and algebra.
-
-- title:    Sharks in the Shallows
-  speaker:  Sri Kunnawalkam Elayvalli
-  date:     25 September, 2017
-  room:     740 Evans
-  abstract: I will talk about problems in mathematics that are so easy to state that even your grandmother can understand them, but are so difficult to solve that no one ever in history has solved them. The interesting thing about the problems I will present is that they are not very famous in the public eye (unlike the twin prime conjecure, Goldbach's conjecture, the abc conjecture, and so on). The platter will include problems of various different flavors, like numbers, sets, triangles, points, sums, etc.
-
-- title:    To Infinity and Beyond &mdash; The strange world of ordinal arithmetic
-  speaker:  Professor Richard E. Borcherds
-  date:     11 September, 2017
-  room:     740 Evans
-  abstract: Beyond the usual numbers 0, 1, 2, 3, ..., lie Cantor's countable ordinal numbers ω, ω+1, ..., ω+ω, ..., ε<sub>0</sub>, .... In some way their arithmetic is similar to the natural numbers; one can add, multiply and raise them to powers and define primes and so on. However in other ways their arithmetic looks a little strange; for example, 1+ω < ω+1.
-
 spotlights:
 - name: Pauline Sperry
   title: First Female Assistant and Associate Professor at UC Berkeley.</p>
@@ -199,6 +174,12 @@ hours:
   friday: --
 
 food:
+- name: Hoodie
+  pic: Hoodie1.jpg
+  price: $30.00
+- name: T-Shirt
+  pic:
+  price: $15.00
 - name: Ice cream sandwich
   pic: IceCreamSandwich.jpg
   price: $1.00
@@ -223,6 +204,31 @@ food:
 - name: Banana
   pic: Fruit.jpg
   price: $0.50
+
+# OLD DATA
+mondayF2017:
+- title:    Homology theories and their applications
+  speaker:  Kat Christianson
+  date:     16 October, 2017 at 6 PM
+  room:     740 Evans
+  abstract: Homology is a powerful algebraic tool that arises naturally in a wide range of different areas of modern mathematics. The main goal of this talk is to provide an introduction to how homology theories are defined and how they are used in practice. We will focus on two standard homology theories in algebraic topology as examples. After laying some theoretical foundations for these two homology theories, we will consider a couple applications of those foundations to questions in geometry and commutative algebra.
+- title:    The Fibonacci Sequence modulo p &mdash; Around and around we go
+  speaker:  Alexander Youcis
+  date:     9 October, 2017
+  room:     740 Evans
+  abstract: The Fibonacci sequence has, in the past decade or so, taken on an almost meme like quality. That being said, it is an interesting sequence of integers, the structure of which can get surprisingly complex. We will be interested in this talk in what sort of periodicity properties the Fibonacci sequence has. Of course, this can’t be the normal notion of periodicity (since the Fibonacci sequence is increasing). Instead, we mean the periodicity of the sequence modulo a prime p. It turns out that the study of such a problem naturally leads one to consider slightly more sophisticated problems in number theory and algebra.
+
+- title:    Sharks in the Shallows
+  speaker:  Sri Kunnawalkam Elayvalli
+  date:     25 September, 2017
+  room:     740 Evans
+  abstract: I will talk about problems in mathematics that are so easy to state that even your grandmother can understand them, but are so difficult to solve that no one ever in history has solved them. The interesting thing about the problems I will present is that they are not very famous in the public eye (unlike the twin prime conjecure, Goldbach's conjecture, the abc conjecture, and so on). The platter will include problems of various different flavors, like numbers, sets, triangles, points, sums, etc.
+
+- title:    To Infinity and Beyond &mdash; The strange world of ordinal arithmetic
+  speaker:  Professor Richard E. Borcherds
+  date:     11 September, 2017
+  room:     740 Evans
+  abstract: Beyond the usual numbers 0, 1, 2, 3, ..., lie Cantor's countable ordinal numbers ω, ω+1, ..., ω+ω, ..., ε<sub>0</sub>, .... In some way their arithmetic is similar to the natural numbers; one can add, multiply and raise them to powers and define primes and so on. However in other ways their arithmetic looks a little strange; for example, 1+ω < ω+1.
 
 # Build settings
 markdown: kramdown
