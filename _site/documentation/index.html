@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MUSA &#8211; Mathematics Undergraduate Student Association</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="We are the Mathematics Undergraduate Student Association at the University of California, Berkeley.
+">
+    <link rel="canonical" href="https://musa.berkeley.edu/documentation/">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <nav>
+        <a href="/">Home</a> &#183;
+        <a href="/academic/">Academics</a> &#183;
+        <a href="/outreach/">Outreach</a> &#183;
+        <a href="/professional/">Professional</a> &#183;
+        <a href="/office/">Office Hours</a>
+    </nav>
+
+    <section id="website" class="resource">
+<h2>Website</h2>
+<p>The following is a guide for maintaining the website. The guide assumes that you are not using
+Windows, or that if you are, you have access to Bash so you can run shell scripts. If not, you're
+probably a CS double-major anyways, so figure it out yourself.</p>
+
+<h3>_config.yml &mdash; For officers</h3>
+<p>_config.yml is the file you edit to update Math Monday, the Events calendar, and so on. It can
+be found in the main directory, /musa_website/.</p>
+<p>Similar to SQL, this YML file consists of tables. A typical table looks like this:</p>
+<pre>
+fields:
+-name:       rational numbers
+ symbol:     <strong>Q</strong>
+ card:       countable
+ abs_galois: ???
+-name:       Galois field of order p (p a prime)
+ symbol:     <strong>Z</strong><sub>p</sup>
+ card:       p
+ abs_galois: A sexy inverse limit
+</pre>
+<p>The table is fields, and its rows are "rational numbers" and "Galois field of order p".
+Each row contains the entries "name", "symbol", "card", and "abs_galois". Rows are delineated
+by hyphens, and cols are delineated by newlines followed by colons.</p>
+<p>So to add a new entry, you would, add, below the Galois field entry:</p>
+<pre>
+-name:       real numbers
+ symbol:     <strong>R</strong>
+ card:       continuum
+ abs_galois: cyclic of order 2
+</pre>
+<p>Be warned that since linebreaks and - and : are special characters in YML, you can't use
+them in the YML file without breaking everything. (Otherwise, this process is idiot-proof,
+so seriously don't this!!) Luckily there's an easy fix. Instead of having a linebreak, insert
+the HTML <pre></p><p></pre>. Likewise, <pre>&mdash;</pre> is a dash (much better than --!)
+and <pre>&#58;</pre> escapes a colon. So you might have something like this:</p>
+<pre>
+polish_spaces:
+-name:   Cantor set
+ symbol: 2<sup><strong>N</strong></sup>
+ card:   continuum
+ desc:   This space is often taught in introductory analysis and topology classes as a useful counterexample&mdash;it is perfect and uncountable but contains no segment and, in fact, can be embedded in <strong>R</strong> to be measure zero. The fact that it can also be embedded in <strong>R</strong> with a positive measure is enough to imply that Riemann integrability is not preserved under composition with a homeomorphism mapping <strong>R</strong> onto itself.</p><p>More than a convenient  counterexample, the Cantor set satisfies a universal property in the category of compact metrizable spaces (and in particular compact Polish spaces&#58; any such space can be written as the image of 2<sup><strong>N</strong></sup> under a continuous map. As its symbol suggests, the Cantor set is the countable Cartesian power of the discrete space of cardinality 2.
+</pre>
+<p>This will render as</p>
+
+<p>This space is often taught in introductory analysis and topology classes as a
+         useful counterexample&mdash;it is perfect and uncountable but contains no segment
+         and, in fact, can be embedded in <strong>R</strong> to be measure zero. The fact
+         that it can also be embedded in <strong>R</strong> with a positive measure is enough
+         to imply that Riemann integrability is not preserved under composition with a
+         homeomorphism mapping <strong>R</strong> onto itself.</p><p>More than a convenient
+         counterexample, the Cantor set satisfies a universal property in the category
+         of compact metrizable spaces (and in particular compact Polish spaces&#58;
+         any such space can be written as the image of 2<sup><strong>N</strong></sup> under
+         a continuous map. As its symbol suggests, the Cantor set is the countable Cartesian
+         power of the discrete space of cardinality 2.</p>
+
+<p>Once you've finished editing, run ./_build.sh "&lt;your edit summary here&gt;" and enter your
+GitHub login to save to the server. Make sure you check online that you didn't break anything
+afterwards!</p>
+
+<h3>The file structure &mdash; For webmasters</h3>
+
+<h3>Git, Bash, Jekyll, and all that &mdash; For everyone</h3>
+
+
+        <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+<p style="color: gray; font-size: small"> 
+MUSA is a Registered Student Organization acting independently of the 
+University of California. <br />
+We take full responsibility for our organization and this web site. <br />
+Report problems with the site to the <a href="/officers/">current webmaster</a>.<br/>
+<a href="/documentation/">Technical documentation</a> for officers.
+<!--&copy; MUSA 2018--><br />
+<a href="https://www.ocf.berkeley.edu">
+  <img src="/img/ocfbadge_mini8dark.png"
+       alt="Hosted by the OCF" style="border: 0;" />
+</a></p>
+
+      </div>
+    </footer>
+
+    
+    </body>
+</html>

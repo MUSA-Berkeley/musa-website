@@ -1,3 +1,4 @@
+####### SITEWISE CONFIGURATION #########
 # Site settings
 title: MUSA
 email: musa@math.berkeley.edu
@@ -20,19 +21,19 @@ social:
   - title: facebook
     url: https://www.facebook.com/groups/musa.berkeley/
 
-### EDIT THIS ###
+### EDIT THIS ###################
 # Events
 events:
-- name:        German language
-  location:    The Hood
-  date:        Before Aidan's final
-  description: Measure is not a topological property.
+- name:        First General Meeting
+  location:    1015 Evans
+  date:        25 January, 2018 at 6 PM
+  description: To be announced...
 
 # Math Mondays
 monday:
 - title:    To be announced!
   speaker:  John R. Steel
-  date:     29 January, 2018 at 6 PM
+  date:     29 January, 2018
   room:     740 Evans
   abstract: To be announced!
 
