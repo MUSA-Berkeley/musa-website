@@ -111,11 +111,17 @@ img {
 /******* TABLE FORMATTING **********/
 .imgmap {
     width: 100%;
-    vertical-align: top;
 }
 
 .imgmap .img {
     width: 30%;
+    vertical-align: top;
+}
+
+.imgmap .map {
+    text-align: left;
+    vertical-align: top;
+    width: 70%;
 }
 
 .imgmap .img img {
@@ -126,11 +132,6 @@ img {
 .imgmap .img h4, .imgmap .img p {
     text-align: center;
     margin: 0;
-}
-
-.imgmap .map {
-    text-align: left;
-    width: 70%;
 }
 
 /****** LINK STYLES ************************/
