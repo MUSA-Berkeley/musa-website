@@ -43,8 +43,46 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 25px;
     font-size: 16px;
+<<<<<<< HEAD
     font-style: italic;
     font-weight: 400;
+=======
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.dropdown-menu {
+    width: fit-content;
+    border-radius: 10px;
+    position: relative;
+    background-color: #eee;
+}
+@media(min-width:767px) {
+  .dropdown-menu {
+    position: absolute;
+  }
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    color: #eb0;
+    left: 0;
+}
+
+.dropdown-menu li a {
+    color: #eb0;
+}
+
+.navbar-header {
+}
+
+.navbar-custom a {
+    color: #eb0;
+>>>>>>> parent of 5bb3312... More substantial mods
 }
 
 ul {
@@ -135,6 +173,18 @@ img {
     margin: 0;
 }
 
+.hours {
+    margin: auto;
+}
+
+.hours th {
+    text-align: center;
+}
+
+.hours td {
+    padding-right: 20px;
+}
+
 /****** LINK STYLES ************************/
 a {
     color: #219ab3;
@@ -183,9 +233,14 @@ nav a {
         padding-right: 20px;
     }
 
+<<<<<<< HEAD
     nav a:hover, nav a:focus {
         text-decoration: underline;
     }
+=======
+.h4 {
+    margin-top:35px;
+>>>>>>> parent of 5bb3312... More substantial mods
 }
 
 /***** OCF FOOTER ********/
