@@ -17,14 +17,13 @@
     {% endfor %}
     </table>
     <h2>Food and Hoodies</h2>
-    <table class="imgmap">
     {% for food in site.food %}
-    <tr><td class="img"><img src="{{ site.baseurl }}/img/office-hours/{{food.pic}}"></td>
-    <td class="map">
+    <div class="box">
     <h4>{{ food.name }}</h4>
+    <p>{{ food.notes }}</h4>
     <p><strong>Price</strong>: {{ food.price }}</p>
-    <p>{{ food.notes }}</p>
-    </tr>
+    <img src="{{ site.baseurl }}/img/office-hours/{{food.pic}}">
+    </div>
     {% endfor %}
     </table>
     </section>

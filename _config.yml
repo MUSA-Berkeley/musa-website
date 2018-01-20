@@ -24,6 +24,22 @@ social:
 ### EDIT THIS ###################
 # Events
 events:
+- name:        Marriages and Matchings
+  location:    1015 Evans
+  date:        15 February, 2018 at 6 PM
+  description: To be announced...
+- name:        SURF and REU research workshop
+  location:    1015 Evans
+  date:        8 February, 2018 at 5 PM
+  description: To be announced...
+- name:        E Day Party!
+  location:    ???
+  date:        7 February, 2018
+  description: To be announced...
+- name:        LaTeX Workshop
+  location:    1015 Evans
+  date:        1 February, 2018 at 6 PM
+  description: To be announced...
 - name:        First General Meeting
   location:    1015 Evans
   date:        25 January, 2018 at 6 PM
@@ -31,29 +47,29 @@ events:
 
 # Math Mondays
 monday:
-- title:    To be announced!
+- title:    Infinite games
   speaker:  John R. Steel
   date:     29 January, 2018
   room:     740 Evans
-  abstract: To be announced!
+  abstract: We consider games of the following sort. There are two players, I and II, and a payoff set $A$. The players alternate making moves, and at the end of the game have produced an infinite sequence s of moves. Player I wins if and only if $s$ is in $A$. This game is called $G_A$, and it is said to be determined if one of the two players has a winning strategy.</p><p>For which $A$ is $G_A$ determined? The question turns out to be a basic one in the foundations of mathematics. Its answer is intimately connected to the existence of infinities much larger than the countable infinity involved in the description of the game.</p><p>We shall explain this connection further, in a non-technical talk aimed at a general audience. 
 
 # Team names, titles and social links
 people:
-- name:     Cailan Li
+- name:     Ryan Shaw
   position: President
+  pic:      Ryan_Shaw.jpg
+
+- name:     Ning McKenzie
+  position: Vice President
+  pic:      Ning_McKenzie.jpg
+
+- name:     Cailan Li
+  position: Treasurer
   pic:      Cailan_Li.jpg
 
 - name:     Clark Lyons
-  position: Vice President
+  position: Pi-E Day Officer
   pic:      Clark_Lyons.jpg
-
-- name:     Michelle Ko
-  position: Treasurer
-  pic:      Michelle_Ko.jpg
-
-- name:     Jerry Wu
-  position: Academic Chair
-  pic:      Jerry_Wu.jpg
 
 - name:     Sung Hyup Lee
   position: Academic Chair
@@ -67,17 +83,13 @@ people:
   position: Outreach Chair, Webmaster
   pic:      Aidan_Backus.jpg
 
-- name:     Ning McKenzie
+- name:     Joshua Lin
   position: Outreach Chair
-  pic:      Ning_McKenzie.jpg
+  pic:      Joshua_Lin.jpg
 
-- name:     Margo Oka
-  position: Professional Chair
-  pic:      Margo_Oka.jpg
-
-- name:     Ryan Shaw
-  position: Professional Chair
-  pic:      Ryan_Shaw.jpg
+- name:     Lakshmi Ramesh
+  position: Outreach Chair, BUMP Head Mentor
+  pic:      Lakshmi_Ramesh.jpg
 
 - name:     Cynthia Shen
   position: Publicity Chair
@@ -87,18 +99,6 @@ people:
   position: Publicity Chair
   pic:      Edgar_Rodriguez.jpg
 
-- name:     Brian Burks
-  position: Recreational Math
-  pic:      Brian_Burks.jpg
-
-- name:     Joshua Lin
-  position: Recreational Math
-  pic:      Joshua_Lin.jpg
-
-- name:     Lakshmi Ramesh
-  position: Social Chair
-  pic:      Lakshmi_Ramesh.jpg
-
 - name:     Mahnoor Mian
   position: Social Chair
   pic:      Mahnoor_Mian.jpg
@@ -106,6 +106,10 @@ people:
 - name:     Sanat Mulay
   position: Social Chair
   pic:      Sanat_Mulay.jpg
+
+- name:     Margo Oka
+  position: Social Chair
+  pic:      Margo_Oka.jpg
 
 hours:
 - time: 10 AM
@@ -239,6 +243,19 @@ retired:
   position: President
   email:    mahrud@berkeley.edu
   pic:      Mahrud_Sayrafi.jpg
+
+- name:     Michelle Ko
+  position: Treasurer
+  pic:      Michelle_Ko.jpg
+
+- name:     Jerry Wu
+  position: Academic Chair
+  pic:      Jerry_Wu.jpg
+
+- name:     Brian Burks
+  position: Recreational Math
+  pic:      Brian_Burks.jpg
+
 
 spotlights:
 - name: Pauline Sperry

@@ -1,15 +1,12 @@
 <!-- Team Section -->
     <section id="former-officers" class="content-section text-center">
                     <h2>Former Officers</h2>
-               <table class="imgmap">
                 {% for member in site.retired %}
-                <tr><td class="img">
-                        <img src="{{ site.baseurl }}/img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">
-                     </td><td class="map">
+                <div class="box">
                      <h4>{{ member.name }}</h4>
                         <p>{{ member.position }}</p>
                         <p>{{ member.notes }}</p>
-                    </td></tr>
+                        <img src="{{ site.baseurl }}/img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">
+                </div>
                 {% endfor %}
-                </table>
     </section>

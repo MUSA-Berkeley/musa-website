@@ -5,16 +5,12 @@
                     <p>Becoming a MUSA officer is a great way to get involved. If you're interested, keep an eye on our
                     mailing list in August!</p>
                 <p>We also have an incomplete list of <a href="/former_officers/">former officers</a>.</p>
-               <table class="imgmap">
                 {% for member in site.people %}
-                <tr><td class="img">
-                        <img src="{{ site.baseurl }}/img/team/{{ member.pic }}">
-                     </td><td class="map">
+                <div class="box">
                      <h4>{{ member.name }}</h4>
                         <p>{{ member.position }}</p>
                         <p>{{ member.notes }}</p>
-                    </td></tr>
+                        <img src="{{ site.baseurl }}/img/team/{{ member.pic }}">
+                    </div>
                 {% endfor %}
-                </table>
-
     </section>
