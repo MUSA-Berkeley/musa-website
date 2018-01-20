@@ -1,14 +1,9 @@
     <section id="math-monday" class="content-section resource">
     <h3>Spring 2018</h3>
-    <table class="imgmap">
     {% for talk in site.monday %}
-    <tr><td class="img">
     <h4>{{ talk.title }}</h4>
     <p>{{ talk.speaker }}</p>
     <p>{{ talk.date }}&mdash;{{ talk.room }}</p>
-    </td><td class="map">
     <p>{{ talk.abstract}}</p>
-    </td></tr>
     {% endfor %}
-    </table>
     </section>

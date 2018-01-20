@@ -4,14 +4,9 @@
 <p>We hold events every week throughout the semester. Typically, our events are held at 
 <strong>6pm-8pm at Evans 1015</strong>, the top floor lounge of Evans Hall. Our upcoming events are listed 
 below.
-<table class="imgmap">
 {% for event in site.events %}
-<tr><td class="img">
 <h4> {{ event.name }}</h4>
 <p> {{ event.date }} &mdash; {{ event.location }}</p>
-</td><td class="map">
 <p> {{ event.description }}</p>
-</td></tr>
 {% endfor %}
-</table>
 </section>
