@@ -8,7 +8,7 @@
 /***** PAGE LAYOUT *********/
 body {
     font-family: "Lyon Text", Georgia, Times, serif;
-    background: url(/site/img/background.jpg);
+    background: url(/_site/img/background.jpg);
 }
 
 section {
