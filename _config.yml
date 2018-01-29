@@ -21,179 +21,184 @@ social:
   - title: facebook
     url: https://www.facebook.com/groups/musa.berkeley/
 
+
+
+
 ### EDIT THIS ###################
 # Events
 events:
-- name:        Marriages and Matchings
+- name:        LaTeX Workshop
   location:    1015 Evans
-  date:        15 February, 2018 at 6 PM
-  description: To be announced...
-- name:        SURF and REU research workshop
-  location:    1015 Evans
-  date:        8 February, 2018 at 5 PM
-  description: To be announced...
+  date:        1 February, 2018 at 6 PM
+  description: Tired of receiving partial credit because your graders couldn't read your handwriting? We'll be holding a LaTeX workshop! LaTeX is a typesetting language that is very useful if you want to create clean professional notes and homework assignments, or create beautiful diagrams. We will give a crash course into LaTeX, and will have experts at the event to answer your questions and help you one on one.
+
 - name:        E Day Party!
   location:    ???
   date:        7 February, 2018
   description: To be announced...
-- name:        LaTeX Workshop
+
+- name:        SURF and REU research workshop
   location:    1015 Evans
-  date:        1 February, 2018 at 6 PM
+  date:        8 February, 2018 at 5 PM
   description: To be announced...
-- name:        First General Meeting
+
+- name:        Marriages and Matchings
   location:    1015 Evans
-  date:        25 January, 2018 at 6 PM
+  date:        15 February, 2018 at 6 PM
   description: To be announced...
+
+
 
 # Math Mondays
 monday:
 - title:    Infinite games
   speaker:  John R. Steel
   date:     29 January, 2018
-  room:     740 Evans
+  room:     1015 Evans
   abstract: We consider games of the following sort. There are two players, I and II, and a payoff set $A$. The players alternate making moves, and at the end of the game have produced an infinite sequence s of moves. Player I wins if and only if $s$ is in $A$. This game is called $G_A$, and it is said to be determined if one of the two players has a winning strategy.</p><p>For which $A$ is $G_A$ determined? The question turns out to be a basic one in the foundations of mathematics. Its answer is intimately connected to the existence of infinities much larger than the countable infinity involved in the description of the game.</p><p>We shall explain this connection further, in a non-technical talk aimed at a general audience. 
+
+
 
 # Team names, titles and social links
 people:
-- name:     Ryan Shaw
-  position: President
-  pic:      Ryan_Shaw.jpg
+- lname:     Ryan Shaw
+  lposition: President
+  lpic:      Ryan_Shaw.jpg
+  rname:     Ning McKenzie
+  rposition: Vice President
+  rpic:      Ning_McKenzie.jpg
 
-- name:     Ning McKenzie
-  position: Vice President
-  pic:      Ning_McKenzie.jpg
+- lname:     Cailan Li
+  lposition: Treasurer, President Emeritus
+  lpic:      Cailan_Li.jpg
+  rname:     Clark Lyons
+  rposition: Pi-E Day Officer, Vice President Emeritus
+  rpic:      Clark_Lyons.jpg
 
-- name:     Cailan Li
-  position: Treasurer
-  pic:      Cailan_Li.jpg
+- lname:     Sung Hyup Lee
+  lposition: Academic Chair
+  lpic:      Sung_Hyup_Lee.jpg
+  rname:     Yu Ma
+  rposition: Academic Chair
+  rpic:      Yu_Ma.jpg
 
-- name:     Clark Lyons
-  position: Pi-E Day Officer
-  pic:      Clark_Lyons.jpg
+- lname:     Aidan Backus
+  lposition: Outreach Chair, Webmaster
+  lpic:      Aidan_Backus.jpg
+  rname:     Joshua Lin
+  rposition: Outreach Chair
+  rpic:      Joshua_Lin.jpg
 
-- name:     Sung Hyup Lee
-  position: Academic Chair
-  pic:      Sung_Hyup_Lee.jpg
+- lname:     Mahnoor Mian
+  lposition: Social Chair
+  lpic:      Mahnoor_Mian.jpg
+  rname:     Sanat Mulay
+  rposition: Social Chair
+  rpic:      Sanat_Mulay.jpg
 
-- name:     Yu Ma
-  position: Academic Chair
-  pic:      Yu_Ma.jpg
+- lname:     Lakshmi Ramesh
+  lposition: Outreach Chair, BUMP Head Mentor
+  lpic:      Lakshmi_Ramesh.jpg
+- rname:     Margo Oka
+  rposition: Social Chair
+  rpic:      Margo_Oka.jpg
 
-- name:     Aidan Backus
-  position: Outreach Chair, Webmaster
-  pic:      Aidan_Backus.jpg
+- lname:     Cynthia Shen
+  lposition: Publicity Chair
+  lpic:      Cynthia_Shen.jpg
+  rname:     Edgar Rodriguez
+  rposition: Publicity Chair
+  rpic:      Edgar_Rodriguez.jpg
 
-- name:     Joshua Lin
-  position: Outreach Chair
-  pic:      Joshua_Lin.jpg
 
-- name:     Lakshmi Ramesh
-  position: Outreach Chair, BUMP Head Mentor
-  pic:      Lakshmi_Ramesh.jpg
+food:
+- lname: Hoodie
+  lpic: Hoodie.jpg
+  lprice: $30.00
+  rname: T-Shirt
+  rpic: TShirt.jpg
+  rprice: $15.00
 
-- name:     Cynthia Shen
-  position: Publicity Chair
-  pic:      Cynthia_Shen.jpg
+- lname: Ice cream sandwich
+  lpic: IceCreamSandwich.jpg
+  lprice: $1.00
+  rname: Soda
+  rpic: Soda.jpg
+  rprice: $0.75
 
-- name:     Edgar Rodriguez
-  position: Publicity Chair
-  pic:      Edgar_Rodriguez.jpg
+- lname: Muffin
+  lpic: Muffin.jpg
+  lprice: $1.00
+  rname: Cup noodles
+  rpic: Snacks.jpg
+  rprice: $0.50
 
-- name:     Mahnoor Mian
-  position: Social Chair
-  pic:      Mahnoor_Mian.jpg
+- lname: Trail mix
+  lprice: $0.75
+  lpic: Snacks.jpg
+  rname: Chips
+  rpic: Chips.jpg
+  rprice: $0.50
 
-- name:     Sanat Mulay
-  position: Social Chair
-  pic:      Sanat_Mulay.jpg
+  lname: Orange
+  lpic: Fruit.jpg
+  lprice: $0.25
+  rname: Banana
+  rpic: Fruit.jpg
+  rprice: $0.50
 
-- name:     Margo Oka
-  position: Social Chair
-  pic:      Margo_Oka.jpg
 
 hours:
 - time: 10 AM
-  monday: Yu Ma
-  tuesday: Lakshmi Ramesh
-  wednesday: Yu Ma
-  thursday: Lakshmi Ramesh
-  friday: Aidan Backus
+  monday: Margo Oka
+  tuesday: Mahnoor Mian
+  wednesday: Sanat Mulay
+  thursday: Joshua Lin
+  friday: Margo Oka
+
 - time: 11 AM
-  monday: Mahnoor Mian
-  tuesday: Jerry Wu
-  wednesday: Mahnoor Mian
-  thursday: Jerry Wu
-  friday: Aidan Backus
+  monday: Aidan Backus
+  tuesday: Mahnoor Mian
+  wednesday: Yu Ma
+  thursday: Aidan Backus
+  friday: Sung Hyup Lee
+
 - time: 12 PM
-  monday: Sung Hyup Lee
-  tuesday: Brian Burks
-  wednesday: Clark Lyons
-  thursday: --
-  friday: Sanat Mulay
+  monday: Cynthia Shen
+  tuesday: Ning McKenzie
+  wednesday: Joshua Lin
+  thursday: Yu Ma
+  friday: Sung Hyup Lee
+
 - time: 1 PM
   monday: Cynthia Shen
-  tuesday: Brian Burks
+  tuesday: Ryan Shaw
+  wednesday: Ning McKenzie
+  thursday: Ryan Shaw
+  friday: Edgar Rodriguez
+
+- time: 2 PM
+  monday: Edgar Rodriguez
+  tuesday: Ryan Shaw
   wednesday: Clark Lyons
   thursday: Ning McKenzie
-  friday: Sanat Mulay
-- time: 2 PM
-  monday: Margo Oka
-  tuesday: Ryan Shaw
-  wednesday: Cailan Li
-  thursday: Edgar Rodriguez
-  friday: Cailan Li
+  friday: Clark Lyons
+
 - time: 3 PM
-  monday: Margo Oka
-  tuesday: Ryan Shaw
-  wednesday: Joshua Lin
-  thursday: Edgar Rodriguez
-  friday: Joshua Lin
-- time: 4 PM
-  monday: Cynthia Shen
-  tuesday: --
-  wednesday: --
-  thursday: Ning McKenzie
-  friday: --
-- time: 5 PM
-  monday: --
-  tuesday: --
-  wednesday: --
-  thursday: Sung Hyup Lee
-  friday: --
+  monday: Cailan Li
+  tuesday: Sanat Mulay
+  wednesday: Clark Lyons
+  thursday: Sanat Mulay
+  friday: Cailan Li
 
-food:
-- name: Hoodie
-  pic: Hoodie.jpg
-  price: $30.00
-- name: T-Shirt
-  pic: placeholder.jpg
-  price: $15.00
-- name: Ice cream sandwich
-  pic: IceCreamSandwich.jpg
-  price: $1.00
-- name: Soda
-  pic: Soda.jpg
-  price: $0.75
-- name: Muffin
-  pic: Muffin.jpg
-  price: $1.00
-- name: Cup noodles
-  pic: Snacks.jpg
-  price: $0.50
-- name: Trail mix
-  price: $0.75
-  pic: Snacks.jpg
-- name: Chips
-  pic: Chips.jpg
-  price: $0.50
-- name: Orange
-  pic: Fruit.jpg
-  price: $0.25
-- name: Banana
-  pic: Fruit.jpg
-  price: $0.50
 
-# OLD DATA
+
+
+
+
+
+
+########### OLD DATA
 mondayF2017:
 - title:    Homology theories and their applications
   speaker:  Kat Christianson

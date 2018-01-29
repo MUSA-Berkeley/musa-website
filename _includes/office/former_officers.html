@@ -2,11 +2,17 @@
     <section id="former-officers" class="content-section text-center">
                     <h2>Former Officers</h2>
                 {% for member in site.retired %}
-                <div class="box">
-                     <h4>{{ member.name }}</h4>
-                        <p>{{ member.position }}</p>
-                        <p>{{ member.notes }}</p>
-                        <img src="{{ site.baseurl }}/img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">
+                <div class="left box">
+                     <h4>{{ member.lname }}</h4>
+                        <p>{{ member.lposition }}</p>
+                        <p>{{ member.lnotes }}</p>
+                        <img src="{{ site.baseurl }}/img/team/{{ member.lpic }}">
+                </div>
+                <div class="left box">
+                     <h4>{{ member.rname }}</h4>
+                        <p>{{ member.rposition }}</p>
+                        <p>{{ member.rnotes }}</p>
+                        <img src="{{ site.baseurl }}/img/team/{{ member.rpic }}">
                 </div>
                 {% endfor %}
     </section>

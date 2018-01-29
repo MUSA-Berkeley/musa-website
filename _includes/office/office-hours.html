@@ -18,11 +18,17 @@
     </table>
     <h2>Food and Hoodies</h2>
     {% for food in site.food %}
-    <div class="box">
-    <h4>{{ food.name }}</h4>
-    <p>{{ food.notes }}</h4>
-    <p><strong>Price</strong>: {{ food.price }}</p>
-    <img src="{{ site.baseurl }}/img/office-hours/{{food.pic}}">
+    <div class="left box">
+    <h4>{{ food.lname }}</h4>
+    <p>{{ food.lnotes }}</h4>
+    <p><strong>Price</strong>: {{ food.lprice }}</p>
+    <img src="{{ site.baseurl }}/img/office-hours/{{food.lpic}}">
+    </div>
+    <div class="right box">
+    <h4>{{ food.rname }}</h4>
+    <p>{{ food.rnotes }}</p>
+    <p><strong>Price</strong>: {{ food.rprice }}</p>
+    <img src="{{ site.baseurl }}/img/office-hours/{{food.rpic}}">
     </div>
     {% endfor %}
     </table>
