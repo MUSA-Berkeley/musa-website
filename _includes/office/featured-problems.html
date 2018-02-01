@@ -3,13 +3,13 @@
     <p>At MUSA, we love to talk about tricky math problems of all levels!
     Here's some of our favorite problems. If you can't figure them out yourself,
     try asking at office hours and see if anyone else can make heads or tails of them.</p>
-    {% for problem in current_problem %}
+    {% for problem in site.current_problem %}
     <h4>{{ problem.title }}</h4>
     <p><strong>Prereqs</strong>: {{ problem.prereqs }}</p>
     <p>{{ problem.abstract }}</p>
     {% endfor %}
     </section>
-    {% for problem in problems %}
+    {% for problem in site.problems %}
     <h4>{{ problem.title }}</h4>
     <p><strong>Prereqs</strong>: {{ problem.prereqs }}</p>
     <p>{{ problem.abstract }}</p>

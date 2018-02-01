@@ -2,13 +2,10 @@
     <section id="events" class="content-section resource">
             <h2>Weekly Events</h2>
 <p>We hold events every week throughout the semester. Typically, our events are held at 
-<strong>6pm-8pm at Evans 1015</strong>, the top floor lounge of Evans Hall. Our upcoming events are listed 
-below.
-{% for event in site.events %}
-<h4> {{ event.name }}</h4>
-<p> {{ event.date }} &mdash; {{ event.location }}</p>
-<p> {{ event.description }}</p>
-{% endfor %}
+<strong>6pm-8pm at Evans 1015</strong>, the top floor lounge of Evans Hall. Our upcoming events
+can be seen in the calendar.
+<iframe src="https://calendar.google.com/calendar/embed?src=musa.berkeley%40gmail.com&mode=AGENDA&ctz=America%2FLos_Angeles" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+
 <h3>Math Monday</h3>
 <p><a href="/math-monday/">Archive</a></p>
 {% for talk in site.current_monday %}
