@@ -50,20 +50,28 @@ events:
 
 
 # Math Mondays
-monday:
+current_monday:
 - title:    Infinite games
   speaker:  John R. Steel
   date:     29 January, 2018
   room:     1015 Evans
   abstract: We consider games of the following sort. There are two players, I and II, and a payoff set $A$. The players alternate making moves, and at the end of the game have produced an infinite sequence s of moves. Player I wins if and only if $s$ is in $A$. This game is called $G_A$, and it is said to be determined if one of the two players has a winning strategy.</p><p>For which $A$ is $G_A$ determined? The question turns out to be a basic one in the foundations of mathematics. Its answer is intimately connected to the existence of infinities much larger than the countable infinity involved in the description of the game.</p><p>We shall explain this connection further, in a non-technical talk aimed at a general audience. 
 
+monday:
 
+# Featured Problems
+current_problem:
+- title: Homeomorphism classes in <b>R</b><sup>n</sup>
+  problem: We say that two subsets, X and Y, of <b>R</b><sup>n</sup> are <i>homeomorphic</i> if there is a continuous bijection from X to Y whose inverse is also continuous.</p><p>Show that there exist two subsets of <b>R</b><sup>n</sup> which are not homeomorphic, but do have continuous bijections between them.
+  prereq: Math 104
+
+problems:
 
 # Team names, titles and social links
 people:
 - lname:     Ryan Shaw
   lposition: President
-  lpic:      Ryan_Shaw.jpg
+  lpic:      Ryan_Shaw.png
   rname:     Ning McKenzie
   rposition: Vice President
   rpic:      Ning_McKenzie.jpg
@@ -222,6 +230,92 @@ mondayF2017:
   date:     11 September, 2017
   room:     740 Evans
   abstract: Beyond the usual numbers 0, 1, 2, 3, ..., lie Cantor's countable ordinal numbers ω, ω+1, ..., ω+ω, ..., ε<sub>0</sub>, .... In some way their arithmetic is similar to the natural numbers; one can add, multiply and raise them to powers and define primes and so on. However in other ways their arithmetic looks a little strange; for example, 1+ω < ω+1.
+
+monday2016:
+- title: Eigenvectors of Tensors
+  speaker: Bernd Sturmfels
+  date: 12 September, 2016
+  abstract: Eigenvectors of square matrices are central to linear algebra. Eigenvectors of tensors are a natural generalization. The spectral theory of tensors was pioneered about a decade ago, and has since found numerous applications, but it is also intimately connected to classical questions in optimization and dynamics. We present an introduction to this theory.
+
+- title: Cutout Instructions and Geometric Invariants
+  speaker: Julian Chaidez
+  date: 19 September, 2016
+  abstract: Suppose that you are given paper cutout instructions for a very large looking polyhedron, with many sides. How could you distinguish between a real set of instructions, which describes a polyhedron that can actually be constructed, and fake set of instructions, which appears valid at a glance but actually described an unbuildable shape?
+
+- title: The Global Attractor Conjecture
+  speaker: Christopher Eur
+  date: 26 September, 2016
+  abstract: The Global Attractor Conjecture (GAC) is a fundamental conjecture in chemical reaction network theory (CRNT) that has eluded proofs for decades despite appearing intuitively obvious. In this talk, we introduce CRNT following works of Jackson, Horn, and Feinberg, and discuss its ties to algebraic geometry and convex geometry. We conclude with a sketch of the recently proposed proof of GAC.
+
+- title: Where to find Galois representations, and why
+  speaker: Sander Mack-Crane
+  date: 3 October, 2016
+  abstract: Starting from prime numbers, we'll discuss one of the motivating problems in number theory, and how it connects to Galois theory and then to Galois representations. This sets us up for a gentle overview of what the Langlands program is all about. As an example we'll discuss the simplest case, known as class field theory. Knowledge of abstract algebra will be helpful.
+
+- title: The p-Group Fixed Point Theorem
+  speaker: Qiaochu Yuan
+  date: 10 October, 2016
+  abstract: In this talk, we'll describe a surprisingly useful result from group theory that can be applied to prove many of the basic results in elementary number theory. We'll start with Fermat's little theorem and Wilson's theorem and work our way up from there. Time permitting we may make it all the way up to quadratic reciprocity.
+
+- title: Differential Equations in Algebraic Geometry
+  speaker: Martin Olsson
+  date: 17 October, 2016
+  abstract: I will discuss some of the algebraic aspects of ordinary linear differential equations. While the theory of such equations, as presented for example in math 1B, is analytic in nature involving things like the derivative and limits, one can, in fact, study such equations more algebraically over the rationals, or even finite fields.
+
+- title: From Linear Maps to Multilinear Maps Through Cryptography
+  speaker: Mahrud Sayrafi
+  date: 24 October, 2016
+  abstract: In this talk we will see how almost all aspects of cryptography essentially boil down to studying functions that are easy to compute but hard to invert without some extra information. While analyzing these functions often involves tools from statistics or computer science, the problems at the core are mathematical in nature, and in fact, you have known all of them since precalc.
+
+- title: Classical and Quantum Chaos
+  speaker: Maciej Zworski
+  date: 31 October, 2016
+  abstract: Classical chaos was famously described by Edward Lorenz (of butterfly effect fame) as the situation when the present determines the future, but the approximate present does not approximately determine the future. I will illustrate that by some example and also, for contrast, show completely integrable systems (that is, predictable systems).
+
+- title: Invariants of nonunique factorization
+  speaker: Christopher O'Neill
+  date: 7 November, 2016
+  abstract: The fundamental theorem of arithmetic states that every integer factors uniquely as a product of primes. Non-unique factorization theory examines settings where uniqueness of factorization fails to hold (that is, settings in which every element can be factored, but possibly in more than one way). This relatively new field has many algebraic and combinatorial aspects.
+
+- title: The calculus of variations and weak KAM theory
+  speaker: Craig Evans
+  date: 14 November, 2016
+  abstract: I will first discuss the Newtonian, the Lagrangian and the Hamiltonian interpretations for the dynamics of a particle moving in a conservative field of forces, and explain how to extract interesting information such as conservation laws and the Virial Theorem. I will then generalize to weak KAM (= Kolmogorov, Arnold, Moser) theory.
+
+- title: Supersymmetry in algebra and geometry
+  speaker: Vera Serganova
+  date: 28 November, 2016
+  abstract: I will give a brief introduction to superalgebras and illustrate on examples how they appear in different areas of mathematics. My examples will include the proof of Amitzur-Levitski identity, the duality between orthogonal and symplectic groups and de Rham complex. We will also discuss the notion of supertrace.
+
+- title: An Introduction to Analytic Number Theory
+  speaker: Cailan Li
+  date: 30 January, 2017
+  abstract: In this talk we will first give a crash course in complex analysis and then talk about the beautiful Riemann zeta function and its generalization. We will then talk about the shiny objects known as modular forms, and some of their applications. In particular, we will discuss the role modular forms played in Andrew Wiles' proof of Fermat's Last Theorem.
+
+- title: Local fields and the geometry of the p-adics
+  speaker: Alex Carney
+  date: 6 February, 2017
+  abstract: Local fields are a formalization of the idea that often in number theory, problems are easier to solve mod p than over the integers or the rationals. We'll start by defining the p-adics, the most common example of a local field, and describe some of their strange and interesting properties. At the end, I will briefly point to some exciting modern directions in the study of local fields.
+
+- title: Reflection groups, wallpaper groups, and orbifolds
+  speaker: Richard Borcherds
+  date: 13 February, 2017
+  abstract: This talk will describe how to classify things like the 18 archimedean solids and the 17 wallpaper groups using orbifolds.
+
+- title: Helpful ways to visualize spaces
+  speaker: Jeff Hicks
+  date: 27 February, 2017
+  abstract: A lot of my intuition for mathematics comes from drawing pictures of the problem I want to solve. As a topologist, this means trying to come up with clean visual representations of various topological spaces. A good drawing for a space should ideally be mathematically motivated and intuitive.
+
+- title: 4-manifolds revisited
+  speaker: Peter Teichner
+  date: 20 March, 2017
+  abstract: I'll give a classification of manifolds up to dimension 4.
+
+- title: Quantum sets
+  speaker: Mariusz Wodzicki
+  date: 10 April, 2017
+  abstract: A set is generally considered to be the simplest structure of Mathematics. Every set comes disguised under a number of other structures, however. While exploring some of them, we shall encounter what I propose to call a quantum set, in analogy to quantum groups.
 
 retired:
 - name:     Irra Na

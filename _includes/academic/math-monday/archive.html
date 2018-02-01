@@ -1,0 +1,9 @@
+    <section id="math-monday-archive" class="content-section resource">
+    <h3>Archive</h3>
+    {% for talk in site.monday2016 %}
+    <h4>{{ talk.title }}</h4>
+    <p>{{ talk.speaker }}</p>
+    <p>{{ talk.date }}</p>
+    <p>{{ talk.abstract}}</p>
+    {% endfor %}
+    </section>

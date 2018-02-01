@@ -3,4 +3,11 @@
     <h2><a href="/math-monday/">Math Monday</a></h2>
     <p>The Math Monday undergraduate lecture series is the flagship event of MUSA. It is a series of talks, every Monday at 5 PM, given by professors and other academics about mathematical research and special topics.</p>
     <img src="/img/math-monday/Borcherds.jpg" class="banner">
+    <h3>This Week</h3>
+    {% for talk in site.current_monday %}
+    <h4>{{ talk.title }}</h4>
+    <p>{{ talk.speaker }}</p>
+    <p>{{ talk.date }}</p>
+    <p>{{ talk.abstract }}</p>
+    {% endfor %}
     </section>
