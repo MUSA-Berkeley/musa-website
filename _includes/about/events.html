@@ -12,14 +12,14 @@ below.
 <h3>Math Monday</h3>
 <p><a href="/math-monday/">Archive</a></p>
 {% for talk in site.current_monday %}
-<h4>{{ talk.name }}</h4>
+<h4>{{ talk.title }}</h4>
 <p>{{ talk.date }} &mdash; {{ talk.room }}</p>
 <p>{{ talk.abstract }}</p>
 {% endfor %}
 <h3>Featured Problem</h3>
 <p><a href="/featured-problems/">Archive</a></p>
 {% for problem in site.current_problem %}
-<h4>{{ problem.name }}</h4>
+<h4>{{ problem.title }}</h4>
 <p><strong>Prerequisite</strong>: {{ problem.prereq }}</p>
 <p>{{ problem.problem }}</p>
 {% endfor %}
