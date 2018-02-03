@@ -27,11 +27,11 @@ social:
 ### EDIT THIS ###################
 # Math Mondays
 current_monday:
-- title:    Infinite Ramsey theory
+- title:    How to count like a logician
   speaker:  Sung Hyup Lee
   date:     5 February, 2018
   room:     939 Evans
-  abstract: To be announced.
+  abstract: Ramsey's theorem provides a generalisation of the classic pigeonhole principle. This aspect of infinitary combinatorics, which tells us when certain homogeneity properties hold given certain conditions, has lent itself naturally to a slew of results in logic and the foundations of mathematics. In this talk, I plan to give a brief and friendly survey of this interaction.
 
 monday:
 - title:    Infinite games
