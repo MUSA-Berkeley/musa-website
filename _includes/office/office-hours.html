@@ -17,19 +17,14 @@
     {% endfor %}
     </table>
     <h2>Food and Hoodies</h2>
+    <img src="/img/office-hours/Hoodie.jpg" style="float:right;">
+    <img src="/img/office-hours/Fruit.jpg" style="float:right;clear:right;">
+    <table class="food">
     {% for food in site.food %}
-    <div class="left box">
-    <h4>{{ food.lname }}</h4>
-    <p>{{ food.lnotes }}</h4>
-    <p><strong>Price</strong>: {{ food.lprice }}</p>
-    <img src="{{ site.baseurl }}/img/office-hours/{{food.lpic}}">
-    </div>
-    <div class="right box">
-    <h4>{{ food.rname }}</h4>
-    <p>{{ food.rnotes }}</p>
-    <p><strong>Price</strong>: {{ food.rprice }}</p>
-    <img src="{{ site.baseurl }}/img/office-hours/{{food.rpic}}">
-    </div>
+    <tr>
+    <th>{{ food.name }}</th>
+    <td>{{ food.price }}</td>
+    </tr>
     {% endfor %}
     </table>
     </section>

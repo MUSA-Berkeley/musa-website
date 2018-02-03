@@ -25,39 +25,21 @@ social:
 
 
 ### EDIT THIS ###################
-# Events
-events:
-- name:        LaTeX Workshop
-  location:    1015 Evans
-  date:        1 February, 2018 at 6 PM
-  description: Tired of receiving partial credit because your graders couldn't read your handwriting? We'll be holding a LaTeX workshop! LaTeX is a typesetting language that is very useful if you want to create clean professional notes and homework assignments, or create beautiful diagrams. We will give a crash course into LaTeX, and will have experts at the event to answer your questions and help you one on one.
-
-- name:        E Day Party!
-  location:    ???
-  date:        7 February, 2018
-  description: To be announced...
-
-- name:        SURF and REU research workshop
-  location:    1015 Evans
-  date:        8 February, 2018 at 5 PM
-  description: To be announced...
-
-- name:        Marriages and Matchings
-  location:    1015 Evans
-  date:        15 February, 2018 at 6 PM
-  description: To be announced...
-
-
-
 # Math Mondays
 current_monday:
+- title:    Infinite Ramsey theory
+  speaker:  Sung Hyup Lee
+  date:     5 February, 2018
+  room:     939 Evans
+  abstract: To be announced.
+
+monday:
 - title:    Infinite games
   speaker:  John R. Steel
   date:     29 January, 2018
   room:     1015 Evans
-  abstract: We consider games of the following sort. There are two players, I and II, and a payoff set $A$. The players alternate making moves, and at the end of the game have produced an infinite sequence s of moves. Player I wins if and only if $s$ is in $A$. This game is called $G_A$, and it is said to be determined if one of the two players has a winning strategy.</p><p>For which $A$ is $G_A$ determined? The question turns out to be a basic one in the foundations of mathematics. Its answer is intimately connected to the existence of infinities much larger than the countable infinity involved in the description of the game.</p><p>We shall explain this connection further, in a non-technical talk aimed at a general audience. 
+  abstract: We consider games of the following sort. There are two players, I and II, and a payoff set $A$. The players alternate making moves, and at the end of the game have produced an infinite sequence s of moves. Player I wins if and only if $s$ is in $A$. This game is called $G_A$, and it is said to be determined if one of the two players has a winning strategy.</p><p>For which $A$ is $G_A$ determined? The question turns out to be a basic one in the foundations of mathematics. Its answer is intimately connected to the existence of infinities much larger than the countable infinity involved in the description of the game.</p><p>We shall explain this connection further, in a non-technical talk aimed at a general audience.
 
-monday:
 
 # Featured Problems
 current_problem:
@@ -66,6 +48,7 @@ current_problem:
   prereq: Math 104
 
 problems:
+
 
 # Team names, titles and social links
 people:
@@ -102,7 +85,7 @@ people:
   lpic:      Mahnoor_Mian.jpg
   rname:     Sanat Mulay
   rposition: Social Chair
-  rpic:      Sanat_Mulay.jpg
+  rpic:      Sanat_Mulay.png
 
 - lname:     Lakshmi Ramesh
   lposition: Outreach Chair, BUMP Head Mentor
@@ -120,77 +103,89 @@ people:
 
 
 food:
-- lname: Hoodie
-  lpic: Hoodie.jpg
-  lprice: $30.00
-  rname: T-Shirt
-  rpic: TShirt.jpg
-  rprice: $15.00
+- name: Hoodie, gray or blue
+  price: $30
 
-- lname: Ice cream sandwich
-  lpic: IceCreamSandwich.jpg
-  lprice: $1.00
-  rname: Soda
-  rpic: Soda.jpg
-  rprice: $0.75
+- name: T-shirt, gray or blue
+  price: $15
 
-- lname: Muffin
-  lpic: Muffin.jpg
-  lprice: $1.00
-  rname: Cup noodles
-  rpic: Snacks.jpg
-  rprice: $0.50
+- name: Tamales, chicken or pork
+  price: $1.25
 
-- lname: Trail mix
-  lprice: $0.75
-  lpic: Snacks.jpg
-  rname: Chips
-  rpic: Chips.jpg
-  rprice: $0.50
+- name: Burrito, steak and cheese
+  price: $1.00
 
-  lname: Orange
-  lpic: Fruit.jpg
-  lprice: $0.25
-  rname: Banana
-  rpic: Fruit.jpg
-  rprice: $0.50
+- name: Burrito, bean and cheese
+  price: $2.00
 
+- name: Cup noodles
+  price: $0.50
+
+- name: Soda
+  price: $0.75
+
+- name: Muffin
+  price: $1.00
+
+- name: Trail mix
+  price: $0.75
+
+- name: Mandarin (seasonal)
+  price: $0.25
+
+- name: Apple (seasonal)
+  price: $0.50
+
+- name: Banana (seasonal)
+  price: $0.50
+
+- name: Chips
+  price: $0.50
+
+- name: Fruit by the Foot
+  price: $0.50
+
+- name: Snickers bar
+  price: $1.00
+
+- name: Ice cream bar
+  price: $1.25
 
 hours:
 - time: 10 AM
-  monday: Margo Oka
+  monday: Lakshmi Ramesh
   tuesday: Mahnoor Mian
-  wednesday: Sanat Mulay
+  wednesday: Lakshmi Ramesh
   thursday: Joshua Lin
   friday: Margo Oka
 
 - time: 11 AM
   monday: Aidan Backus
   tuesday: Mahnoor Mian
-  wednesday: Yu Ma
-  thursday: Aidan Backus
+  wednesday: Aidan Backus
+  thursday: Yu Ma
   friday: Sung Hyup Lee
 
 - time: 12 PM
   monday: Cynthia Shen
   tuesday: Ning McKenzie
-  wednesday: Joshua Lin
+  wednesday: Ning McKenzie
   thursday: Yu Ma
   friday: Sung Hyup Lee
 
 - time: 1 PM
   monday: Cynthia Shen
   tuesday: Ryan Shaw
-  wednesday: Ning McKenzie
+  wednesday: Joshua Lin
   thursday: Ryan Shaw
   friday: Edgar Rodriguez
 
 - time: 2 PM
-  monday: Edgar Rodriguez
+  monday: Margo Oka
   tuesday: Ryan Shaw
-  wednesday: Clark Lyons
+  wednesday: Cailan Li
   thursday: Ning McKenzie
-  friday: Clark Lyons
+  friday: Edgar Rodriguez
 
 - time: 3 PM
   monday: Cailan Li
@@ -318,42 +313,37 @@ monday2016:
   abstract: A set is generally considered to be the simplest structure of Mathematics. Every set comes disguised under a number of other structures, however. While exploring some of them, we shall encounter what I propose to call a quantum set, in analogy to quantum groups.
 
 retired:
-- name:     Irra Na
-  position: Professional Chair
-  pic:      Irra_Na.jpg
-
-- name:     Ruta Jawale
-  position: Publicity Chair
-  pic:      Ruta_Jawale.jpg
-
-- name:     Victor Hakim
-  position: Social Chair
-  pic:      Victor_Hakim.jpg
-
-- name:     Anna Leskova
-  position: Outreach Chair
-  pic:      Anna_Leskova.jpg
-
-- name:     Brandon Van Over
-  position: Academic Chair
-  pic:      Brandon_Van_Over.jpg
-
-- name:     Mahrud Sayrafi
-  position: President
-  email:    mahrud@berkeley.edu
-  pic:      Mahrud_Sayrafi.jpg
-
-- name:     Michelle Ko
-  position: Treasurer
-  pic:      Michelle_Ko.jpg
-
-- name:     Jerry Wu
-  position: Academic Chair
-  pic:      Jerry_Wu.jpg
-
-- name:     Brian Burks
-  position: Recreational Math
-  pic:      Brian_Burks.jpg
+- lname:     Irra Na
+  lposition: Professional Chair
+  lpic:      Irra_Na.jpg
+  rname:     Ruta Jawale
+  rposition: Publicity Chair
+  rpic:      Ruta_Jawale.jpg
+- lname:     Victor Hakim
+  lposition: Social Chair
+  lpic:      Victor_Hakim.jpg
+  rname:     Anna Leskova
+  rposition: Outreach Chair
+  rpic:      Anna_Leskova.jpg
+- lname:     Brandon Van Over
+  lposition: Academic Chair
+  lpic:      Brandon_Van_Over.jpg
+  rname:     Mahrud Sayrafi
+  rposition: President
+  remail:    mahrud@berkeley.edu
+  rpic:      Mahrud_Sayrafi.jpg
+- lname:     Michelle Ko
+  lposition: Treasurer
+  lpic:      Michelle_Ko.jpg
+  rname:     Jerry Wu
+  rposition: Academic Chair
+  rpic:      Jerry_Wu.jpg
+- lname:     Brian Burks
+  lposition: Recreational Math
+  lpic:      Brian_Burks.jpg
+  rname:
+  rposition:
+  rpic:      filler.png
 
 
 spotlights:
