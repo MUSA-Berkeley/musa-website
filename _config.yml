@@ -31,7 +31,7 @@ current_monday:
   speaker:  James Walsh
   date:     26 February, 2018
   room:     939 Evans
-  abstract: Hilbert's Program was an early twentieth century research program with two goals: (i) axiomatize mathematics and (ii) prove the consistency of the axioms by indubitable means. Interest in Hilbert's Program waned after Gödel's discovery that, roughly, no interesting axiomatic theory can be proved consistent on the basis of indubitable means. This discovery sowed the seeds for a refined version of Hilbert's Program known as ordinal analysis. In ordinal analysis, the strength of axiomatic theories is measured and compared by determining what principles are necessary and sufficient for proving their consistency. I will provide a non-technical introduction to the subject with no background knowledge assumed.
+  abstract: Hilbert's Program was an early twentieth century research program with two goals&#58; (i) axiomatize mathematics and (ii) prove the consistency of the axioms by indubitable means. Interest in Hilbert's Program waned after Gödel's discovery that, roughly, no interesting axiomatic theory can be proved consistent on the basis of indubitable means. This discovery sowed the seeds for a refined version of Hilbert's Program known as ordinal analysis. In ordinal analysis, the strength of axiomatic theories is measured and compared by determining what principles are necessary and sufficient for proving their consistency. I will provide a non-technical introduction to the subject with no background knowledge assumed.
 
 monday:
 - title:    To Infinity and Beyond

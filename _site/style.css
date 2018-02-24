@@ -189,8 +189,6 @@ img {
 
 /****** SALES BOX FORMATTING ***************/
 .box {
-    border-style: solid;
-    border-width: 0 0 1px 0;
     text-align: center;
     width: 90%;
     margin: auto;
@@ -198,6 +196,7 @@ img {
 
 .box p {
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .box h4 {
@@ -211,9 +210,6 @@ img {
 
 @media(min-width: 600px) {
     .box {
-        border-width: 0 0 2px 0;
-        border-style: solid;
-        border-radius: 25px 25px 0 0;
         text-align: center;
         width: 445px;
         margin: auto;
@@ -221,6 +217,7 @@ img {
 
     .box p {
         text-align: center;
+        margin-bottom: 50px;
     }
 
     .box h4 {
