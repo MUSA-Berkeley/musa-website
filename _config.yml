@@ -27,13 +27,18 @@ social:
 ### EDIT THIS ###################
 # Math Mondays
 current_monday:
+- title:    An introduction to ordinal analysis
+  speaker:  James Walsh
+  date:     26 February, 2018
+  room:     939 Evans
+  abstract: Hilbert's Program was an early twentieth century research program with two goals: (i) axiomatize mathematics and (ii) prove the consistency of the axioms by indubitable means. Interest in Hilbert's Program waned after Gödel's discovery that, roughly, no interesting axiomatic theory can be proved consistent on the basis of indubitable means. This discovery sowed the seeds for a refined version of Hilbert's Program known as ordinal analysis. In ordinal analysis, the strength of axiomatic theories is measured and compared by determining what principles are necessary and sufficient for proving their consistency. I will provide a non-technical introduction to the subject with no background knowledge assumed.
+
+monday:
 - title:    To Infinity and Beyond
   speaker:  Clark Lyons
   date:     11 February, 2018
   room:     939 Evans
   abstract: In the 19th century, George Cantor first showed that some infinite sets are larger than other infinite sets. He showed that the size of the set of real numbers is larger than the size of the set of natural numbers, but he left open the question of how much larger. It turns out that this question lies at the foundation of mathematics, and determining exactly how large the continuum can be motivated much of the set theory research done in the 20th century. In this talk we will see what the current state of “continuum problem” is. No prerequisite knowledge assumed.
-
-monday:
 - title:    How to count like a logician
   speaker:  Sung Hyup Lee
   date:     5 February, 2018

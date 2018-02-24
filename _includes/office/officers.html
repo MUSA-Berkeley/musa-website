@@ -7,16 +7,16 @@
                 <p>We also have an incomplete list of <a href="/former_officers/">former officers</a>.</p>
                 {% for member in site.people %}
                 <div class="left box">
+                        <img src="{{ site.baseurl }}/img/team/{{ member.lpic }}">
                      <h4>{{ member.lname }}</h4>
                         <p>{{ member.lposition }}</p>
                         <p>{{ member.lnotes }}</p>
-                        <img src="{{ site.baseurl }}/img/team/{{ member.lpic }}">
                     </div>
                 <div class="right box">
+                        <img src="{{ site.baseurl }}/img/team/{{ member.rpic }}">
                      <h4>{{ member.rname }}</h4>
                         <p>{{ member.rposition }}</p>
                         <p>{{ member.rnotes }}</p>
-                        <img src="{{ site.baseurl }}/img/team/{{ member.rpic }}">
                     </div>
                 {% endfor %}
     </section>
