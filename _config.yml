@@ -231,7 +231,7 @@ mondayF2017:
   date:     13 November, 2017
   room:     740 Evans
   abstract: The commercially dominant models for estimating risk in stocks require an army of analysts reading accounting data to classify individual stocks' exposures to predefined risk factors.  We discuss a simple machine learning method, based on linear algebra and optimization, that may have the potential to disrupt these models.
-- title:    Elo Ratings and the Sports Model: A Neglected Topic in Applied Probability
+- title:    Elo Ratings and the Sports Model &mdash; A Neglected Topic in Applied Probability
   speaker:  David Aldous
   date:     6 November, 2017
   room:     740 Evans
