@@ -27,13 +27,18 @@ social:
 ### EDIT THIS ###################
 # Math Mondays
 current_monday:
+- title:    The maths behind fruit ninja
+  speaker:  Srivatsav Kunnawalkam
+  date:     5 March, 2018
+  room:     1015 Evans
+  abstract: (Note that this Math Monday will occur at <strong>4 PM</strong>!)</p><p>Hilbert, way back in 1900, knew about fruit ninja. Indeed he posed the problem, also known as Hilbert's 3rd problem&#58; "Can you fruit ninja a fruit in the shape of a regular tetrahedron, into a fruit in the shape of a cube?". In this talk, we will attempt to solve this problem using a powerful tool known as linear algebra. We will then discuss about other such questions which involve finite decompositions and reassembling of subsets of $R^n$.</p>
+
+monday:
 - title:    An introduction to ordinal analysis
   speaker:  James Walsh
   date:     26 February, 2018
   room:     939 Evans
   abstract: Hilbert's Program was an early twentieth century research program with two goals&#58; (i) axiomatize mathematics and (ii) prove the consistency of the axioms by indubitable means. Interest in Hilbert's Program waned after Gödel's discovery that, roughly, no interesting axiomatic theory can be proved consistent on the basis of indubitable means. This discovery sowed the seeds for a refined version of Hilbert's Program known as ordinal analysis. In ordinal analysis, the strength of axiomatic theories is measured and compared by determining what principles are necessary and sufficient for proving their consistency. I will provide a non-technical introduction to the subject with no background knowledge assumed.
-
-monday:
 - title:    To Infinity and Beyond
   speaker:  Clark Lyons
   date:     11 February, 2018
@@ -53,11 +58,14 @@ monday:
 
 # Featured Problems
 current_problem:
+- title: Towers of boxes
+  problem: How many different ways can a person stack n cubical boxes if (a) the person must stack all the boxes in the same two dimensional plane, (b) on the bottom layer of boxes, the boxes must be placed side by side with no gaps in between, and (c) on all higher levels, the boxes must be stacked directly on top of an existing box?
+  prereq: None
+
+problems:
 - title: Homeomorphism classes in <b>R</b><sup>n</sup>
   problem: We say that two subsets, X and Y, of <b>R</b><sup>n</sup> are <i>homeomorphic</i> if there is a continuous bijection from X to Y whose inverse is also continuous.</p><p>Show that there exist two subsets of <b>R</b><sup>n</sup> which are not homeomorphic, but do have continuous bijections between them.
   prereq: Math 104
-
-problems:
 
 
 # Team names, titles and social links
@@ -213,6 +221,31 @@ hours:
 
 ########### OLD DATA
 mondayF2017:
+- title:    Between characteristics
+  speaker:  Silvain Rideau
+  date:     20 November, 2017
+  room:     740 Evans
+  abstract: In many ways, a field of characteristic zero behaves like a field of large positive characteristic. For example, if the characteristic of a field K is zero or prime to m, then the polynomial X^m - 1 only has simple roots. In this talk, we will explain how, using the tools of logic, this observation can be formalized and how one can actually prove that characteristic zero behavior is the limit for large p of characteristic p behavior. We will then use this to prove a result of Ax on polynomial maps over the complex numbers.
+- title:    Linear Algebra, Optimization, and Financial Risk
+  speaker:  Robert M. Anderson
+  date:     13 November, 2017
+  room:     740 Evans
+  abstract: The commercially dominant models for estimating risk in stocks require an army of analysts reading accounting data to classify individual stocks' exposures to predefined risk factors.  We discuss a simple machine learning method, based on linear algebra and optimization, that may have the potential to disrupt these models.
+- title:    Elo Ratings and the Sports Model: A Neglected Topic in Applied Probability
+  speaker:  David Aldous
+  date:     6 November, 2017
+  room:     740 Evans
+  abstract: Teaching Probability as mathematics without any reference to data is (arguably) foreign to the spirit of the 21st century.  One interface between Probability and readily available data involves Elo-type rating algorithms for sports teams. Combined with a model for win/lose with given strengths, and a model for time-varying strengths, one gets a model within which one can compare observed algorithmic ratings to unseen strengths.   In particular, the sentence ``ratings tend to converge on a team’s true strength relative to its competitors after about 30 matches” has been widely copied online. Is there any theory or data to support this assertion?
+- title:    Riemannian geometry and Ricci flow
+  speaker:  Richard Bamler
+  date:     30 October, 2017
+  room:     740 Evans
+  abstract: This talk will be about the fruitful interplay of three different mathematical fields: topology, geometry and analysis. The talk will consist of two parts. In the first, more classical part, I will introduce the concept of a Riemannian manifold. I will then explain how the topology and the geometry of a Riemannian manifold are related to one another. In dimensions 2 and 3, this relationship will even give us a way of classifying all possible topologies. This classification in dimension 3 is called the “Geometrization Conjecture” and it was just recently proven by Perelman.In the second part of the talk, analysis will enter the picture. I will introduce the Ricci flow, which is a method of “spreading out” curvature similar to a heat equation. I will then sketch how Perelman used the Ricci flow to prove the Geometrization Conjecture.If time permits, I will also discuss some more recent results and open questions.
+- title:    The geometry of groups
+  speaker:  Carolyn Abbott
+  date:     23 October, 2017
+  room:     740 Evans
+  abstract: A group is an algebraic object, but it also possible (and useful!) to study the geometry of a group.  To do this, we need to understand what a group looks like.  In this talk, I will introduce a way to “draw a picture” of a group, and we will discuss what can be said about the group depending on the geometry of the picture.
 - title:    Homology theories and their applications
   speaker:  Kat Christianson
   date:     16 October, 2017 at 6 PM
@@ -223,7 +256,11 @@ mondayF2017:
   date:     9 October, 2017
   room:     740 Evans
   abstract: The Fibonacci sequence has, in the past decade or so, taken on an almost meme like quality. That being said, it is an interesting sequence of integers, the structure of which can get surprisingly complex. We will be interested in this talk in what sort of periodicity properties the Fibonacci sequence has. Of course, this can’t be the normal notion of periodicity (since the Fibonacci sequence is increasing). Instead, we mean the periodicity of the sequence modulo a prime p. It turns out that the study of such a problem naturally leads one to consider slightly more sophisticated problems in number theory and algebra.
-
+- title:    Partition identities
+  speaker:  Jeremy Lovejoy
+  date:     1 October, 2017
+  room:     740 Evans
+  abstract: A partition of n is a non-increasing sequence of natural numbers whose sum is n.    The study of partitions goes back to Euler, who proved the original partition identityu. For any n, the number of partitions of n into distinct parts is equal to the number of partitions of n into odd parts.    Another famous partition identity is the first Rogers-Ramanujan identity, which says that for all n, the number of partitions of n into parts which differ by at least two is equal to the number of partitions of n into parts congruent to 1 or 4 modulo 5.  (Try it for some small values of n to see that it works!)    While these two partition identities have similar statements, one is much deeper than the other.   In this talk I will discuss the proofs of these identities, the search for a generalization, and some unsolved problems.
 - title:    Sharks in the Shallows
   speaker:  Sri Kunnawalkam Elayvalli
   date:     25 September, 2017

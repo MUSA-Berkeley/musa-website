@@ -3,16 +3,16 @@
                     <h2>Former Officers</h2>
                 {% for member in site.retired %}
                 <div class="left box">
+                        <img src="{{ site.baseurl }}/img/team/{{ member.lpic }}">
                      <h4>{{ member.lname }}</h4>
                         <p>{{ member.lposition }}</p>
                         <p>{{ member.lnotes }}</p>
-                        <img src="{{ site.baseurl }}/img/team/{{ member.lpic }}">
                 </div>
                 <div class="left box">
+                        <img src="{{ site.baseurl }}/img/team/{{ member.rpic }}">
                      <h4>{{ member.rname }}</h4>
                         <p>{{ member.rposition }}</p>
                         <p>{{ member.rnotes }}</p>
-                        <img src="{{ site.baseurl }}/img/team/{{ member.rpic }}">
                 </div>
                 {% endfor %}
     </section>
