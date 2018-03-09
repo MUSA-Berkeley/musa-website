@@ -27,13 +27,17 @@ social:
 ### EDIT THIS ###################
 # Math Mondays
 current_monday:
+- title:    What is a quantum metric space?
+  speaker:  Marc Rieffel
+  date:     12 March, 2018
+  room:     939 Evans
+  abstract: I will indicate some issues in high-energy quantum physics that suggest the need for a definition of a “quantum metric space”, and then I will proceed to show how to obtain a useful definition, concentrating on “compact” (and “finite”) ones. I will indicate many examples. If time allows, I will also indicate how to define the distance between compact quantum metric spaces, with examples. This is a relatively new topic, with many aspects remaining to be explored.</p><p>Useful background for my talk is Math 104, 110, and a bit of 113, but this is not necessary. No physics background is needed (though it would be a bit helpful).
+monday:
 - title:    The maths behind fruit ninja
   speaker:  Srivatsav Kunnawalkam
   date:     5 March, 2018
   room:     1015 Evans
   abstract: (Note that this Math Monday will occur at <strong>4 PM</strong>!)</p><p>Hilbert, way back in 1900, knew about fruit ninja. Indeed he posed the problem, also known as Hilbert's 3rd problem&#58; "Can you fruit ninja a fruit in the shape of a regular tetrahedron, into a fruit in the shape of a cube?". In this talk, we will attempt to solve this problem using a powerful tool known as linear algebra. We will then discuss about other such questions which involve finite decompositions and reassembling of subsets of $R^n$.</p>
-
-monday:
 - title:    An introduction to ordinal analysis
   speaker:  James Walsh
   date:     26 February, 2018
