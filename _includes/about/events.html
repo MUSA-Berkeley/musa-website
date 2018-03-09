@@ -10,6 +10,7 @@ can be seen in the calendar.
 <p><a href="/math-monday/">Archive</a></p>
 {% for talk in site.current_monday %}
 <h4>{{ talk.title }}</h4>
+<p>{{ talk.speaker }}</p>
 <p>{{ talk.date }} &mdash; {{ talk.room }}</p>
 <p>{{ talk.abstract }}</p>
 {% endfor %}
