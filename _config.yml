@@ -27,12 +27,17 @@ social:
 ### EDIT THIS ###################
 # Math Mondays
 current_monday:
+- title:    The integers and the 3-sphere
+  speaker:  Eric Chen
+  date:     19 March, 2018
+  room:     939 Evans
+  abstract: Studying the properties of the integers is interesting, but also very hard. Sometimes, instead of staring at lots of equations and identities, it helps to draw a geometric picture of what's going on. In this talk, I will introduce enough fancy words (not that many) to explain how one could think of quadratic reciprocity geometrically. If there's extra time, I'll also say something about more general rings of integers.
+monday:
 - title:    What is a quantum metric space?
   speaker:  Marc Rieffel
   date:     12 March, 2018
   room:     939 Evans
   abstract: I will indicate some issues in high-energy quantum physics that suggest the need for a definition of a “quantum metric space”, and then I will proceed to show how to obtain a useful definition, concentrating on “compact” (and “finite”) ones. I will indicate many examples. If time allows, I will also indicate how to define the distance between compact quantum metric spaces, with examples. This is a relatively new topic, with many aspects remaining to be explored.</p><p>Useful background for my talk is Math 104, 110, and a bit of 113, but this is not necessary. No physics background is needed (though it would be a bit helpful).
-monday:
 - title:    The maths behind fruit ninja
   speaker:  Srivatsav Kunnawalkam
   date:     5 March, 2018
@@ -62,11 +67,13 @@ monday:
 
 # Featured Problems
 current_problem:
+- title: Prison break!
+  problem: There are N prisoners in a circular prison; each isolated in their own soundproof prison cell. Each prisoner is given a button and a switch; the button controls the lightbulb in the prisoner one cell clockwise from the button-holder. When a prisoner presses their button, the corresponding lightbulb will flash on and then off at the coming noontime, whenever that is. The goal of the prisoners is to find N; the total number of prisoners. To make things challenging; the prison warden shuffles all the prisoners every night.</p><p>Can this be done; given that you are allowed to give an algorithm A for all the other prisoners to follow; and you yourself can follow an algorithm B?
+  prereq: None
+problems:
 - title: Towers of boxes
   problem: How many different ways can a person stack n cubical boxes if (a) the person must stack all the boxes in the same two dimensional plane, (b) on the bottom layer of boxes, the boxes must be placed side by side with no gaps in between, and (c) on all higher levels, the boxes must be stacked directly on top of an existing box?
   prereq: None
-
-problems:
 - title: Homeomorphism classes in <b>R</b><sup>n</sup>
   problem: We say that two subsets, X and Y, of <b>R</b><sup>n</sup> are <i>homeomorphic</i> if there is a continuous bijection from X to Y whose inverse is also continuous.</p><p>Show that there exist two subsets of <b>R</b><sup>n</sup> which are not homeomorphic, but do have continuous bijections between them.
   prereq: Math 104
@@ -85,7 +92,7 @@ people:
   lposition: Treasurer, President Emeritus
   lpic:      Cailan_Li.jpg
   rname:     Clark Lyons
-  rposition: Pi-E Day Officer, Vice President Emeritus
+  rposition: Historian, Vice President Emeritus
   rpic:      Clark_Lyons.jpg
 
 - lname:     Sung Hyup Lee
@@ -207,12 +214,12 @@ hours:
   tuesday: Ryan Shaw
   wednesday: Clark Lyons
   thursday: Ning McKenzie
-  friday: Edgar Rodriguez
+  friday: Clark Lyons
 
 - time: 3 PM
   monday: Cailan Li
   tuesday: Sanat Mulay
-  wednesday: Clark Lyons
+  wednesday: Edgar Rodriguez
   thursday: Sanat Mulay
   friday: Cailan Li
 
