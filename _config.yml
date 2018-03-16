@@ -399,8 +399,8 @@ retired:
 - lname:     Brian Burks
   lposition: Recreational Math
   lpic:      Brian_Burks.jpg
-  rname:     &nbsp;
-  rposition: &nbsp;
+  rname:     \xA0
+  rposition: \xA0
   rpic:      filler.png
 
 
