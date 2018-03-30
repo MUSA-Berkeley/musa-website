@@ -31,7 +31,8 @@ current_monday:
   speaker:  Virginia Harrison
   date:     2 April, 2018
   room:     939 Evans
-  abstract: "To be announced!"
+  abstract: "Plateau’s problem asks if there is an area minimizing surface spanning a given boundary curve. Roughly speaking, the competing surfaces must contain the curve and not have any holes. Is there an area minimizer amongst the class of all such surfaces?  Jesse Douglas was awarded one of the first Fields medals in 1936 for his solution of Plateau’s problem. Federer and Fleming were awarded the Steele Prize for their 1960 solution.  Reifenberg produced a completely different solution, also in 1960. We will briefly discuss how these papers were independent of each other and solved special distinct cases. Most mathematicians believe this was the end of the story. But was there anything significant left to do? We will answer this question in the affirmative and describe some recent results arising from a flurry of interest in the last four years. The talk should be accessible to students who have studied real analysis, although some simple algebraic topology will be invoked to say what it means for a surface to span a given boundary."
+
 monday:
 - title:    The integers and the 3-sphere
   speaker:  Eric Chen
@@ -82,6 +83,16 @@ problems:
 - title: Homeomorphism classes in <b>R</b><sup>n</sup>
   problem: We say that two subsets, X and Y, of <b>R</b><sup>n</sup> are <i>homeomorphic</i> if there is a continuous bijection from X to Y whose inverse is also continuous.</p><p>Show that there exist two subsets of <b>R</b><sup>n</sup> which are not homeomorphic, but do have continuous bijections between them.
   prereq: Math 104
+
+
+# Collaborative course notes
+notes:
+- coursenumber: 185
+  coursename:   Complex Analysis
+  pdf:          math185.pdf
+  sharelatex:   "https://www.sharelatex.com/8846974529hvjythkmxjng"
+
+
 
 
 # Team names, titles and social links
@@ -136,6 +147,7 @@ people:
   rpic:      Edgar_Rodriguez.jpg
 
 
+# Food and hoodies
 food:
 - name: Hoodie, gray or blue
   price: $30
@@ -195,7 +207,7 @@ food:
   price: $0.25
 
 
-
+# OH schedule
 hours:
 - time: 10 AM
   monday: Lakshmi Ramesh
