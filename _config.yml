@@ -105,9 +105,9 @@ notes:
 
 # Peer Advising
 panights:
-- url:      s18
-  semester: Spring 2018
-pas2018:
+- url:      peer-advising-f18
+  semester: Fall 2018
+paf2018:
 - number:  55
   name:    Discrete Math
   prof:    Haiman
