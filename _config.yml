@@ -27,15 +27,20 @@ social:
 ### EDIT THIS ###################
 # Math Mondays
 current_monday:
+- title:    Chaos in dynamical systems
+  speaker:  Semyon Dyatlov
+  date:     16 April, 2018
+  room:     939 Evans
+  abstract: "We will study several mathematical ways to describe when a given dynamical system exhibits chaotic, or unpredictable, behavior, such as the notions of ergodicity and mixing. These concepts will be illustrated on several examples, both basic (where I will attempt to give a rigorous proof of ergodicity) and more interesting ones, such as chaotic billiards (which will be demonstrated by numerical simulations)."
+
+monday:
 - title:    An introduction to the Langlands program
   speaker:  Sug Woo Shin
   date:     9 April, 2018
   room:     939 Evans
   abstract: "This is a gentle introduction to the Langlands program based on the developments of reciprocity law. Some attention will be drawn to the birth of the Langlands program in a letter of Langlands to Weil in 1967. Time permitting a snapshot of some current developments may be given."
-
-monday:
 - title:    Existence and regularity of soap film solutions to Plateau's problem
-  speaker:  Virginia Harrison
+  speaker:  Jenny Harrison
   date:     2 April, 2018
   room:     939 Evans
   abstract: "Plateau’s problem asks if there is an area minimizing surface spanning a given boundary curve. Roughly speaking, the competing surfaces must contain the curve and not have any holes. Is there an area minimizer amongst the class of all such surfaces?  Jesse Douglas was awarded one of the first Fields medals in 1936 for his solution of Plateau’s problem. Federer and Fleming were awarded the Steele Prize for their 1960 solution.  Reifenberg produced a completely different solution, also in 1960. We will briefly discuss how these papers were independent of each other and solved special distinct cases. Most mathematicians believe this was the end of the story. But was there anything significant left to do? We will answer this question in the affirmative and describe some recent results arising from a flurry of interest in the last four years. The talk should be accessible to students who have studied real analysis, although some simple algebraic topology will be invoked to say what it means for a surface to span a given boundary."
@@ -97,6 +102,112 @@ notes:
   pdf:          math185.pdf
   sharelatex:   "https://www.sharelatex.com/8846974529hvjythkmxjng"
 
+
+# Peer Advising
+panights:
+- url:      s18
+  semester: Spring 2018
+pas2018:
+- number:  55
+  name:    Discrete Math
+  prof:    Haiman
+  offered: Every semester
+  notes:   "Haiman is a lot of fun and a wonderful lecturer, but does not respond to emails. This class should be taken before any upper division classes if you don't have any experience writing proofs."
+- number:  104
+  name:    Real Analysis
+  offered: Every semester
+  prof:    Lovejoy, Hadfield, Jao, Iliopoulou, Zhu, Bragg, Shimizu, Wodzicki (Honors)
+  notes:   "Lovejoy is a decent professor with good office hours, and is a safe choice. Hadfield cares about his students, but is more likely to focus on the calculus side of 104 than the topology side. Iliopoulou is a clear instructor with good notes. Shimizu, Zhu, and Bragg are all new to campus. Wodzicki should be avoided, in light of tendency to ramble on after class as late as 2 am (true story)."
+- number:  110
+  name:    Linear Algebra
+  offered: Every semester
+  prof:    Shin, Harrison (Honors)
+  notes:   "Shin is approachable and easy to learn from. Harrison will approach the course from a much more abstract perspective than most instructors, including tensor products and category theory, and while she teaches valuable concepts it would be wortwhile to already know abstract algebra before taking her class."
+- number:  113
+  name:    Abstract Algebra
+  offered: Every semester
+  prof:    Shende, Vojta, Wodzicki, Shimizu, Corteel, Vaintrob
+  notes:   "Shende posts all notes online and is approachable. Vojta is understandable and inserts his own topics, such as impossibility of angle trisection, into the class. Wodzicki should be avoided (see 104 notes). Shimizu, Corteel, and Vaintrob are all new to campus."
+- number:  125A
+  name:    Mathematical Logic
+  offered: Most semesters
+  prof:    Slaman
+  notes:   "113 is absolutely a necessary prerequisite for this class. Because of department politics, 125B does not exist. Slaman is approachable and will try to answer every question. This class also fulfills the Philosophy and Values breadth."
+- number:  126
+  name:    Partial Differential Equations
+  offered: Most semesters
+  prof:    Laux
+  notes:   "???"
+- number:  128A
+  name:    Numerical Analysis
+  offered: Every semester
+  prof:    Wilkening
+  notes:   "This is the most computational upper-division class and should be taken before most upper divs. Matlab is easy to learn."
+- number:  136
+  name:    Incompleteness and Undecidability
+  offered: Most semesters
+  prof:    Slaman
+  notes:   "See 125A for notes on Slaman."
+- number:  141
+  name:    Differential Topology
+  prof:    Givental
+  offered: Sometimes
+  notes:   "In contrast to typical semesters, Givental will probably cover Stokes' theorem, the Morse-Sard theorem, and advanced topics. This course may be harder than in usual semesters because Givental will not dumb anything down. However, he cares about this field a lot, as it is his research area."
+- number:  143
+  name:    Algebraic Geometry
+  prof:    Tonkonong
+  offered: Sometimes
+  notes:   "This course is usually taught by a postdoc of Sturmfels, who teaches it with emphasis on computational techniques. This is not the case with Tonkonog, who is more likely to focus on theory."
+- number:  185
+  name:    Complex Analysis
+  offered: Every semester
+  prof:    Hadfield, Klass, Laux, Corwin, Artomonov
+  notes:   "Hadfield's H185 was quite challenging but he'll probably be more gentle in 185. Laux is a solid choice who will emphasize computation. Artomonov is new to campus."
+- number:  191
+  name:    Experimental Courses - Putnam Prep
+  prof:    Givental
+  offered: Every fall
+  notes:   "This course is a problem-solving seminar intended for students planning to take the national math exam, the Putnam, this fall. You will work in groups to learn how to solve problems. It's a fun course whose final is the Putnam itself, but will not fufill any department requirements."
+- number:  202A
+  name:    Topology and Analysis
+  prof:    Rieffel
+  offered: Every fall
+  notes:   "This is the first graduate course in analysis (though it's mainly taken by undergrads) and should not be taken lightly! Rieffel has taught this class since the 60s, and with him, the class will have a high attrition rate, will not follow a textbook, and will be considerably more difficult than in the past few years. However, unlike other graduate classes, there is a GSI. Contrary to rumor, he does in fact give multiple As per semester."
+- number:  205
+  name:    Functions of a Complex Variable
+  prof:    Voiculescu
+  offered: Sometimes
+  notes:   "The graduate version of 185, but probably not worth taking. The last time Voiculescu taught 205, the class ended a month early."
+- number:  214
+  name:    Differentiable Manifolds
+  prof:    Bamler
+  offered: Sometimes, but it's often hijacked by Wodzicki, so if you want to take it take it now!
+  notes:   ???
+- number:  C218A
+  name:    Probability Theory
+  prof:    Pitman
+  offered: Every fall
+  notes:   "Also crosslisted as Stat C205A and that's what you have to enroll as on CalCentral. Pitman wrote the 134 textbook and enjoys teaching, but math majors often tend to blow off this class as easy -- it's still a graduate class and has the difficulty of one."
+- number:  222A
+  name:    Partial Differential Equations
+  prof:    Tataru
+  offered: Every fall
+  notes:   "A class with engineers, but still lots of hard analysis. Tataru is a fun guy who wears the same shirt every day. He'll teach out of Evans' PDE book."
+- number:  228A
+  name:    Numerical PDEs
+  prof:    Lin
+  offered: Every fall?
+  notes:   "A class full of engineers but still difficult proofs. Code in Julia. Lin is a good lecturer with hard homework."
+- number:  249
+  name:    Algebraic Combinatorics
+  prof:    Serganova
+  offered: Every fall?
+  notes:   "This class is not easy, but is good to take with 250A, and is a good introduction to graduate courses. Serganova hasn't taught it recently, so topics will probably be different than usual."
+- number:  250A
+  name:    Groups, Rings, and Fields
+  prof:    Nadler
+  offered: Every fall
+  notes:   "The first graduate algebra course (often taken by undergrads). Not to be taken lightly. Nadler prefers to talk about material from a high-level overview rather than give details."
 
 
 
