@@ -27,13 +27,19 @@ social:
 ### EDIT THIS ###################
 # Math Mondays
 current_monday:
+- title:    Differential game theory and how to use PDE to run down pedestrians optimally
+  speaker:  Craig Evans
+  date:     23 April, 2018
+  room:     939 Evans
+  abstract: "I will discuss how to use certain nonlinear PDE to design optimal strategies for game problems involving differential equations and will in particular explain applications to
+the <em>homicidal chauffeur</em> problem."
+
+monday:
 - title:    Chaos in dynamical systems
   speaker:  Semyon Dyatlov
   date:     16 April, 2018
   room:     939 Evans
   abstract: "We will study several mathematical ways to describe when a given dynamical system exhibits chaotic, or unpredictable, behavior, such as the notions of ergodicity and mixing. These concepts will be illustrated on several examples, both basic (where I will attempt to give a rigorous proof of ergodicity) and more interesting ones, such as chaotic billiards (which will be demonstrated by numerical simulations)."
-
-monday:
 - title:    An introduction to the Langlands program
   speaker:  Sug Woo Shin
   date:     9 April, 2018
