@@ -27,14 +27,18 @@ social:
 ### EDIT THIS ###################
 # Math Mondays
 current_monday:
+- title:    A European application of random matrix theory
+  speaker:  Brent Nelson
+  date:     25 April, 2018
+  room:     939 Evans
+  abstract: "Random matrix theory is a field of mathematics that blends probability theory and linear algebra. It was originally developed by Wigner to model heavy nuclei of atoms, but today offers applications to many other areas of math and science. In this talk, I will provide an introduction to random matrix theory and discuss a surprising application to genetics and cartography.</p><p>Note the special time of 5:00-6:00pm on Wednesday; you might call this Math Monday + 2."
+monday:
 - title:    Differential game theory and how to use PDE to run down pedestrians optimally
   speaker:  Craig Evans
   date:     23 April, 2018
   room:     939 Evans
   abstract: "I will discuss how to use certain nonlinear PDE to design optimal strategies for game problems involving differential equations and will in particular explain applications to
 the <em>homicidal chauffeur</em> problem."
-
-monday:
 - title:    Chaos in dynamical systems
   speaker:  Semyon Dyatlov
   date:     16 April, 2018
@@ -89,10 +93,12 @@ monday:
 
 # Featured Problems
 current_problem:
+- title: Cuboids on the sphere
+  problem: "Let S^2 denote the 2-sphere. Describe the space of cuboids (that is, rectangular prisms) whose vertices are all points on S^2."
+problems:
 - title: Prison break!
   problem: There are N prisoners in a circular prison; each isolated in their own soundproof prison cell. Each prisoner is given a button and a switch; the button controls the lightbulb in the prisoner one cell clockwise from the button-holder. When a prisoner presses their button, the corresponding lightbulb will flash on and then off at the coming noontime, whenever that is. The goal of the prisoners is to find N; the total number of prisoners. To make things challenging; the prison warden shuffles all the prisoners every night.</p><p>Can this be done; given that you are allowed to give an algorithm A for all the other prisoners to follow; and you yourself can follow an algorithm B?
   prereq: None
-problems:
 - title: Towers of boxes
   problem: How many different ways can a person stack n cubical boxes if (a) the person must stack all the boxes in the same two dimensional plane, (b) on the bottom layer of boxes, the boxes must be placed side by side with no gaps in between, and (c) on all higher levels, the boxes must be stacked directly on top of an existing box?
   prereq: None
