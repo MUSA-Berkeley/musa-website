@@ -27,12 +27,12 @@ social:
 ### EDIT THIS ###################
 # Math Mondays
 current_monday:
+monday:
 - title:    A European application of random matrix theory
   speaker:  Brent Nelson
   date:     25 April, 2018
   room:     939 Evans
   abstract: "Random matrix theory is a field of mathematics that blends probability theory and linear algebra. It was originally developed by Wigner to model heavy nuclei of atoms, but today offers applications to many other areas of math and science. In this talk, I will provide an introduction to random matrix theory and discuss a surprising application to genetics and cartography.</p><p>Note the special time of 5:00-6:00pm on Wednesday; you might call this Math Monday + 2."
-monday:
 - title:    Differential game theory and how to use PDE to run down pedestrians optimally
   speaker:  Craig Evans
   date:     23 April, 2018

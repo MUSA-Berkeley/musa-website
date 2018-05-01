@@ -19,6 +19,10 @@ section {
 }
 
 /**** TEXT STYLES ***************************/
+input {
+    font-family: "Lyon Text", Georgia, Times, serif;
+}
+
 h1,
 h2,
 h3,
@@ -123,12 +127,18 @@ p, td {
     text-align: justify;
 }
 
+/**** MAILFORM STYLES *****//
+#mailform label { font-weight:bold; padding-bottom:10px; font-size:20px; display:block; }
+#mailform .email { border:1px solid #ABB032; width: 300px; font-size:18px; border-radius: 3px; box-sizing: border-box; }
+#mailform .button { margin-left:15px; border:1px solid #ABB032; font-size:18px; width:100px; border-radius:3px; box-sizing:border-box; }
+
+
 /**** IMAGE STYLES ********//
 img {
     max-width: 100%;
 }
 
-.banner {
+.banner, .semibanner {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -142,6 +152,14 @@ img {
         margin-left: auto;
         margin-right: auto;
         width: 900px;
+        padding-bottom: 20px;
+    }
+
+    .semibanner {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
         padding-bottom: 20px;
     }
 }
