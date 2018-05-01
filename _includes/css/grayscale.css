@@ -127,7 +127,6 @@ p, td {
 }
 
 /**** MAILFORM STYLES *****//
-#mailform label { font-weight:bold; padding-bottom:10px; font-size:20px; display:block; }
 #mailform .email { border:1px solid #ABB032; width: 300px; font-size:18px; border-radius: 3px; box-sizing: border-box; }
 #mailform .button { margin-left:15px; border:1px solid #ABB032; font-size:18px; width:100px; border-radius:3px; box-sizing:border-box; }
 
