@@ -27,75 +27,23 @@ social:
 ### EDIT THIS ###################
 # Math Mondays
 current_monday:
+- title:    Coming soon
+  speaker:  ???
+  date:     ???, 2018
+  room:     ???
+  abstract: "???"
 monday:
-- title:    A European application of random matrix theory
-  speaker:  Brent Nelson
-  date:     25 April, 2018
-  room:     939 Evans
-  abstract: "Random matrix theory is a field of mathematics that blends probability theory and linear algebra. It was originally developed by Wigner to model heavy nuclei of atoms, but today offers applications to many other areas of math and science. In this talk, I will provide an introduction to random matrix theory and discuss a surprising application to genetics and cartography.</p><p>Note the special time of 5:00-6:00pm on Wednesday; you might call this Math Monday + 2."
-- title:    Differential game theory and how to use PDE to run down pedestrians optimally
-  speaker:  Craig Evans
-  date:     23 April, 2018
-  room:     939 Evans
-  abstract: "I will discuss how to use certain nonlinear PDE to design optimal strategies for game problems involving differential equations and will in particular explain applications to
-the <em>homicidal chauffeur</em> problem."
-- title:    Chaos in dynamical systems
-  speaker:  Semyon Dyatlov
-  date:     16 April, 2018
-  room:     939 Evans
-  abstract: "We will study several mathematical ways to describe when a given dynamical system exhibits chaotic, or unpredictable, behavior, such as the notions of ergodicity and mixing. These concepts will be illustrated on several examples, both basic (where I will attempt to give a rigorous proof of ergodicity) and more interesting ones, such as chaotic billiards (which will be demonstrated by numerical simulations)."
-- title:    An introduction to the Langlands program
-  speaker:  Sug Woo Shin
-  date:     9 April, 2018
-  room:     939 Evans
-  abstract: "This is a gentle introduction to the Langlands program based on the developments of reciprocity law. Some attention will be drawn to the birth of the Langlands program in a letter of Langlands to Weil in 1967. Time permitting a snapshot of some current developments may be given."
-- title:    Existence and regularity of soap film solutions to Plateau's problem
-  speaker:  Jenny Harrison
-  date:     2 April, 2018
-  room:     939 Evans
-  abstract: "Plateau’s problem asks if there is an area minimizing surface spanning a given boundary curve. Roughly speaking, the competing surfaces must contain the curve and not have any holes. Is there an area minimizer amongst the class of all such surfaces?  Jesse Douglas was awarded one of the first Fields medals in 1936 for his solution of Plateau’s problem. Federer and Fleming were awarded the Steele Prize for their 1960 solution.  Reifenberg produced a completely different solution, also in 1960. We will briefly discuss how these papers were independent of each other and solved special distinct cases. Most mathematicians believe this was the end of the story. But was there anything significant left to do? We will answer this question in the affirmative and describe some recent results arising from a flurry of interest in the last four years. The talk should be accessible to students who have studied real analysis, although some simple algebraic topology will be invoked to say what it means for a surface to span a given boundary."
-- title:    The integers and the 3-sphere
-  speaker:  Eric Chen
-  date:     19 March, 2018
-  room:     939 Evans
-  abstract: Studying the properties of the integers is interesting, but also very hard. Sometimes, instead of staring at lots of equations and identities, it helps to draw a geometric picture of what's going on. In this talk, I will introduce enough fancy words (not that many) to explain how one could think of quadratic reciprocity geometrically. If there's extra time, I'll also say something about more general rings of integers.
-- title:    What is a quantum metric space?
-  speaker:  Marc Rieffel
-  date:     12 March, 2018
-  room:     939 Evans
-  abstract: I will indicate some issues in high-energy quantum physics that suggest the need for a definition of a “quantum metric space”, and then I will proceed to show how to obtain a useful definition, concentrating on “compact” (and “finite”) ones. I will indicate many examples. If time allows, I will also indicate how to define the distance between compact quantum metric spaces, with examples. This is a relatively new topic, with many aspects remaining to be explored.</p><p>Useful background for my talk is Math 104, 110, and a bit of 113, but this is not necessary. No physics background is needed (though it would be a bit helpful).
-- title:    The maths behind fruit ninja
-  speaker:  Srivatsav Kunnawalkam
-  date:     5 March, 2018
-  room:     1015 Evans
-  abstract: (Note that this Math Monday will occur at <strong>4 PM</strong>!)</p><p>Hilbert, way back in 1900, knew about fruit ninja. Indeed he posed the problem, also known as Hilbert's 3rd problem&#58; "Can you fruit ninja a fruit in the shape of a regular tetrahedron, into a fruit in the shape of a cube?". In this talk, we will attempt to solve this problem using a powerful tool known as linear algebra. We will then discuss about other such questions which involve finite decompositions and reassembling of subsets of $R^n$.</p>
-- title:    An introduction to ordinal analysis
-  speaker:  James Walsh
-  date:     26 February, 2018
-  room:     939 Evans
-  abstract: Hilbert's Program was an early twentieth century research program with two goals&#58; (i) axiomatize mathematics and (ii) prove the consistency of the axioms by indubitable means. Interest in Hilbert's Program waned after Gödel's discovery that, roughly, no interesting axiomatic theory can be proved consistent on the basis of indubitable means. This discovery sowed the seeds for a refined version of Hilbert's Program known as ordinal analysis. In ordinal analysis, the strength of axiomatic theories is measured and compared by determining what principles are necessary and sufficient for proving their consistency. I will provide a non-technical introduction to the subject with no background knowledge assumed.
-- title:    To Infinity and Beyond
-  speaker:  Clark Lyons
-  date:     11 February, 2018
-  room:     939 Evans
-  abstract: In the 19th century, George Cantor first showed that some infinite sets are larger than other infinite sets. He showed that the size of the set of real numbers is larger than the size of the set of natural numbers, but he left open the question of how much larger. It turns out that this question lies at the foundation of mathematics, and determining exactly how large the continuum can be motivated much of the set theory research done in the 20th century. In this talk we will see what the current state of “continuum problem” is. No prerequisite knowledge assumed.
-- title:    How to count like a logician
-  speaker:  Sung Hyup Lee
-  date:     5 February, 2018
-  room:     939 Evans
-  abstract: Ramsey's theorem provides a generalisation of the classic pigeonhole principle. This aspect of infinitary combinatorics, which tells us when certain homogeneity properties hold given certain conditions, has lent itself naturally to a slew of results in logic and the foundations of mathematics. In this talk, I plan to give a brief and friendly survey of this interaction.
-- title:    Infinite games
-  speaker:  John R. Steel
-  date:     29 January, 2018
-  room:     1015 Evans
-  abstract: We consider games of the following sort. There are two players, I and II, and a payoff set $A$. The players alternate making moves, and at the end of the game have produced an infinite sequence s of moves. Player I wins if and only if $s$ is in $A$. This game is called $G_A$, and it is said to be determined if one of the two players has a winning strategy.</p><p>For which $A$ is $G_A$ determined? The question turns out to be a basic one in the foundations of mathematics. Its answer is intimately connected to the existence of infinities much larger than the countable infinity involved in the description of the game.</p><p>We shall explain this connection further, in a non-technical talk aimed at a general audience.
 
 
 # Featured Problems
 current_problem:
+- title: Fractal topology
+  problem: "If X is a metric space, say that X has a <i>fractal topology</i> if, for each nonempty open set U in X, there is a homeomorphism from U to X. What's an example of X?"
+  prereq: Math 104
+problems:
 - title: Cuboids on the sphere
   problem: "Let S^2 denote the 2-sphere. Describe the space of cuboids (that is, rectangular prisms) whose vertices are all points on S^2."
-problems:
+  prereq: None
 - title: Prison break!
   problem: There are N prisoners in a circular prison; each isolated in their own soundproof prison cell. Each prisoner is given a button and a switch; the button controls the lightbulb in the prisoner one cell clockwise from the button-holder. When a prisoner presses their button, the corresponding lightbulb will flash on and then off at the coming noontime, whenever that is. The goal of the prisoners is to find N; the total number of prisoners. To make things challenging; the prison warden shuffles all the prisoners every night.</p><p>Can this be done; given that you are allowed to give an algorithm A for all the other prisoners to follow; and you yourself can follow an algorithm B?
   prereq: None
@@ -232,13 +180,6 @@ people:
   rposition: Vice President
   rpic:      Ning_McKenzie.jpg
 
-- lname:     Cailan Li
-  lposition: Treasurer, President Emeritus
-  lpic:      Cailan_Li.jpg
-  rname:     Clark Lyons
-  rposition: Historian, Vice President Emeritus
-  rpic:      Clark_Lyons.jpg
-
 - lname:     Sung Hyup Lee
   lposition: Academic Chair
   lpic:      Sung_Hyup_Lee.jpg
@@ -247,7 +188,7 @@ people:
   rpic:      Yu_Ma.jpg
 
 - lname:     Aidan Backus
-  lposition: Outreach Chair, Webmaster
+  lposition: Curator
   lpic:      Aidan_Backus.jpg
   rname:     Joshua Lin
   rposition: Outreach Chair
@@ -266,13 +207,6 @@ people:
   rname:     Margo Oka
   rposition: Social Chair
   rpic:      Margo_Oka.jpg
-
-- lname:     Cynthia Shen
-  lposition: Publicity Chair
-  lpic:      Cynthia_Shen.jpg
-  rname:     Edgar Rodriguez
-  rposition: Publicity Chair
-  rpic:      Edgar_Rodriguez.jpg
 
 
 # Food and hoodies
@@ -407,6 +341,69 @@ case.  Thus it is a natural question to analyze what happens to their invariants
 some of their generators.  We will begin by motivating their study by some examples,  define some of
 the relevant invariants, and present our recent results that reduce the calculation of invariants of any
 almost-arithmetic monoids to their extremal generators under specific conditions."
+
+mondayS2018:
+- title:    A European application of random matrix theory
+  speaker:  Brent Nelson
+  date:     25 April, 2018
+  room:     939 Evans
+  abstract: "Random matrix theory is a field of mathematics that blends probability theory and linear algebra. It was originally developed by Wigner to model heavy nuclei of atoms, but today offers applications to many other areas of math and science. In this talk, I will provide an introduction to random matrix theory and discuss a surprising application to genetics and cartography.</p><p>Note the special time of 5:00-6:00pm on Wednesday; you might call this Math Monday + 2."
+- title:    Differential game theory and how to use PDE to run down pedestrians optimally
+  speaker:  Craig Evans
+  date:     23 April, 2018
+  room:     939 Evans
+  abstract: "I will discuss how to use certain nonlinear PDE to design optimal strategies for game problems involving differential equations and will in particular explain applications to
+the <em>homicidal chauffeur</em> problem."
+- title:    Chaos in dynamical systems
+  speaker:  Semyon Dyatlov
+  date:     16 April, 2018
+  room:     939 Evans
+  abstract: "We will study several mathematical ways to describe when a given dynamical system exhibits chaotic, or unpredictable, behavior, such as the notions of ergodicity and mixing. These concepts will be illustrated on several examples, both basic (where I will attempt to give a rigorous proof of ergodicity) and more interesting ones, such as chaotic billiards (which will be demonstrated by numerical simulations)."
+- title:    An introduction to the Langlands program
+  speaker:  Sug Woo Shin
+  date:     9 April, 2018
+  room:     939 Evans
+  abstract: "This is a gentle introduction to the Langlands program based on the developments of reciprocity law. Some attention will be drawn to the birth of the Langlands program in a letter of Langlands to Weil in 1967. Time permitting a snapshot of some current developments may be given."
+- title:    Existence and regularity of soap film solutions to Plateau's problem
+  speaker:  Jenny Harrison
+  date:     2 April, 2018
+  room:     939 Evans
+  abstract: "Plateau’s problem asks if there is an area minimizing surface spanning a given boundary curve. Roughly speaking, the competing surfaces must contain the curve and not have any holes. Is there an area minimizer amongst the class of all such surfaces?  Jesse Douglas was awarded one of the first Fields medals in 1936 for his solution of Plateau’s problem. Federer and Fleming were awarded the Steele Prize for their 1960 solution.  Reifenberg produced a completely different solution, also in 1960. We will briefly discuss how these papers were independent of each other and solved special distinct cases. Most mathematicians believe this was the end of the story. But was there anything significant left to do? We will answer this question in the affirmative and describe some recent results arising from a flurry of interest in the last four years. The talk should be accessible to students who have studied real analysis, although some simple algebraic topology will be invoked to say what it means for a surface to span a given boundary."
+- title:    The integers and the 3-sphere
+  speaker:  Eric Chen
+  date:     19 March, 2018
+  room:     939 Evans
+  abstract: Studying the properties of the integers is interesting, but also very hard. Sometimes, instead of staring at lots of equations and identities, it helps to draw a geometric picture of what's going on. In this talk, I will introduce enough fancy words (not that many) to explain how one could think of quadratic reciprocity geometrically. If there's extra time, I'll also say something about more general rings of integers.
+- title:    What is a quantum metric space?
+  speaker:  Marc Rieffel
+  date:     12 March, 2018
+  room:     939 Evans
+  abstract: I will indicate some issues in high-energy quantum physics that suggest the need for a definition of a “quantum metric space”, and then I will proceed to show how to obtain a useful definition, concentrating on “compact” (and “finite”) ones. I will indicate many examples. If time allows, I will also indicate how to define the distance between compact quantum metric spaces, with examples. This is a relatively new topic, with many aspects remaining to be explored.</p><p>Useful background for my talk is Math 104, 110, and a bit of 113, but this is not necessary. No physics background is needed (though it would be a bit helpful).
+- title:    The maths behind fruit ninja
+  speaker:  Srivatsav Kunnawalkam
+  date:     5 March, 2018
+  room:     1015 Evans
+  abstract: (Note that this Math Monday will occur at <strong>4 PM</strong>!)</p><p>Hilbert, way back in 1900, knew about fruit ninja. Indeed he posed the problem, also known as Hilbert's 3rd problem&#58; "Can you fruit ninja a fruit in the shape of a regular tetrahedron, into a fruit in the shape of a cube?". In this talk, we will attempt to solve this problem using a powerful tool known as linear algebra. We will then discuss about other such questions which involve finite decompositions and reassembling of subsets of $R^n$.</p>
+- title:    An introduction to ordinal analysis
+  speaker:  James Walsh
+  date:     26 February, 2018
+  room:     939 Evans
+  abstract: Hilbert's Program was an early twentieth century research program with two goals&#58; (i) axiomatize mathematics and (ii) prove the consistency of the axioms by indubitable means. Interest in Hilbert's Program waned after Gödel's discovery that, roughly, no interesting axiomatic theory can be proved consistent on the basis of indubitable means. This discovery sowed the seeds for a refined version of Hilbert's Program known as ordinal analysis. In ordinal analysis, the strength of axiomatic theories is measured and compared by determining what principles are necessary and sufficient for proving their consistency. I will provide a non-technical introduction to the subject with no background knowledge assumed.
+- title:    To Infinity and Beyond
+  speaker:  Clark Lyons
+  date:     11 February, 2018
+  room:     939 Evans
+  abstract: In the 19th century, George Cantor first showed that some infinite sets are larger than other infinite sets. He showed that the size of the set of real numbers is larger than the size of the set of natural numbers, but he left open the question of how much larger. It turns out that this question lies at the foundation of mathematics, and determining exactly how large the continuum can be motivated much of the set theory research done in the 20th century. In this talk we will see what the current state of “continuum problem” is. No prerequisite knowledge assumed.
+- title:    How to count like a logician
+  speaker:  Sung Hyup Lee
+  date:     5 February, 2018
+  room:     939 Evans
+  abstract: Ramsey's theorem provides a generalisation of the classic pigeonhole principle. This aspect of infinitary combinatorics, which tells us when certain homogeneity properties hold given certain conditions, has lent itself naturally to a slew of results in logic and the foundations of mathematics. In this talk, I plan to give a brief and friendly survey of this interaction.
+- title:    Infinite games
+  speaker:  John R. Steel
+  date:     29 January, 2018
+  room:     1015 Evans
+  abstract: We consider games of the following sort. There are two players, I and II, and a payoff set $A$. The players alternate making moves, and at the end of the game have produced an infinite sequence s of moves. Player I wins if and only if $s$ is in $A$. This game is called $G_A$, and it is said to be determined if one of the two players has a winning strategy.</p><p>For which $A$ is $G_A$ determined? The question turns out to be a basic one in the foundations of mathematics. Its answer is intimately connected to the existence of infinities much larger than the countable infinity involved in the description of the game.</p><p>We shall explain this connection further, in a non-technical talk aimed at a general audience.
 
 mondayF2017:
 - title:    Between characteristics
@@ -576,6 +573,18 @@ retired:
 - lname:     Brian Burks
   lposition: Recreational Math
   lpic:      Brian_Burks.jpg
+  rname:     Edgar Rodriguez
+  rposition: Publicity Chair
+  rpic:      Edgar_Rodriguez.jpg
+- lname:     Cailan Li
+  lposition: Treasurer, President Emeritus
+  lpic:      Cailan_Li.jpg
+  rname:     Clark Lyons
+  rposition: Historian, Vice President Emeritus
+  rpic:      Clark_Lyons.jpg
+- lname:     Cynthia Shen
+  lposition: Publicity Chair
+  lpic:      Cynthia_Shen.jpg
   rname:     "&nbsp;"
   rposition: "&nbsp;"
   rpic:      filler.png
