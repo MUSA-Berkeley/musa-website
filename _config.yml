@@ -27,9 +27,9 @@ social:
 ### EDIT THIS ###################
 # Math Mondays
 current_monday:
-- title:    Coming soon
+- title:    ???
   speaker:  ???
-  date:     ???, 2018
+  date:     10 September, 2018
   room:     ???
   abstract: "???"
 monday:
@@ -190,24 +190,44 @@ people:
 - lname:     Aidan Backus
   lposition: Curator
   lpic:      Aidan_Backus.jpg
-  rname:     Joshua Lin
-  rposition: Outreach Chair
-  rpic:      Joshua_Lin.jpg
+  rname:     ???
+  rposition: Social Chair
+  rpic:      NewOfficer.png
 
-- lname:     Mahnoor Mian
-  lposition: Social Chair
-  lpic:      Mahnoor_Mian.jpg
-  rname:     Sanat Mulay
+- lname:     Sanat Mulay
   rposition: Social Chair
   rpic:      Sanat_Mulay.png
-
-- lname:     Lakshmi Ramesh
-  lposition: Outreach Chair, BUMP Head Mentor
-  lpic:      Lakshmi_Ramesh.jpg
   rname:     Margo Oka
   rposition: Social Chair
   rpic:      Margo_Oka.jpg
 
+- lname:     ???
+  lposition: Outreach Chair
+  lpic:      NewOfficer.png
+  rname:     ???
+  rposition: Outreach Chair
+  rpic:      NewOfficer.png
+
+- lname:     ???
+  lposition: Diversity Chair
+  lpic:      NewOfficer.png
+  rname:     ???
+  rposition: Diversity Chair
+  rpic:      NewOfficer.png
+
+- lname:     ???
+  lposition: Professional Chair
+  lpic:      NewOfficer.png
+  rname:     ???
+  rposition: Professional Chair
+  rpic:      NewOfficer.png
+
+- lname:     ???
+  lposition: Publicity Chair
+  lpic:      NewOfficer.png
+  rname:     &nbsp;
+  rposition: &nbsp;
+  rpic:      filler.png
 
 # Food and hoodies
 food:
@@ -582,12 +602,18 @@ retired:
   rname:     Clark Lyons
   rposition: Historian, Vice President Emeritus
   rpic:      Clark_Lyons.jpg
+- lname:     Lakshmi Ramesh
+  lposition: Outreach Chair, BUMP Head Mentor
+  lpic:      Lakshmi_Ramesh.jpg
+  rname:     Mahnoor Mian
+  rposition: Social Chair
+  rpic:      Mahnoor_Mian.jpg
 - lname:     Cynthia Shen
   lposition: Publicity Chair
   lpic:      Cynthia_Shen.jpg
-  rname:     "&nbsp;"
-  rposition: "&nbsp;"
-  rpic:      filler.png
+  rname:     Joshua Lin
+  rposition: Outreach Chair
+  rpic:      Joshua_Lin.jpg
 
 
 spotlights:
