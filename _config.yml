@@ -225,8 +225,8 @@ people:
 - lname:     ???
   lposition: Publicity Chair
   lpic:      NewOfficer.png
-  rname:     &nbsp;
-  rposition: &nbsp;
+  rname:     "&nbsp;"
+  rposition: "&nbsp;"
   rpic:      filler.png
 
 # Food and hoodies
