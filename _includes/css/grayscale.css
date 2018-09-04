@@ -183,6 +183,10 @@ img {
     width: 400px;
 }
 
+.team .namerow h4 {
+    margin-top: -3px;
+}
+
 .team .titlerow td {
     padding-bottom:0px;
     text-align:center;
