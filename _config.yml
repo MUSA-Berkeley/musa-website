@@ -190,16 +190,16 @@ people:
 - lname:     Aidan Backus
   lposition: Curator
   lpic:      Aidan_Backus.jpg
-  rname:     ???
-  rposition: Social Chair
-  rpic:      NewOfficer.png
-
-- lname:     Sanat Mulay
-  rposition: Social Chair
-  rpic:      Sanat_Mulay.png
   rname:     Margo Oka
   rposition: Social Chair
   rpic:      Margo_Oka.jpg
+
+- lname:     Sanat Mulay
+  lposition: Social Chair
+  lpic:      Sanat_Mulay.png
+  rname:     ???
+  rposition: Social Chair
+  rpic:      NewOfficer.png
 
 - lname:     ???
   lposition: Outreach Chair
@@ -292,46 +292,46 @@ food:
 # OH schedule
 hours:
 - time: 10 AM
-  monday: Lakshmi Ramesh
-  tuesday: Mahnoor Mian
-  wednesday: Lakshmi Ramesh
-  thursday: Joshua Lin
-  friday: Margo Oka
+  monday: Aidan Backus
+  tuesday: Margo Oka
+  wednesday: Aidan Backus
+  thursday: Margo Oka
+  friday: Nick Chiu
 
 - time: 11 AM
-  monday: Aidan Backus
-  tuesday: Mahnoor Mian
-  wednesday: Aidan Backus
+  monday: Andrew DeLapo
+  tuesday: Yu Ma
+  wednesday: Sung Hyup Lee
   thursday: Yu Ma
-  friday: Sung Hyup Lee
+  friday: Nick Chiu
 
 - time: 12 PM
-  monday: Cynthia Shen
-  tuesday: Ning McKenzie
-  wednesday: Ning McKenzie
-  thursday: Yu Ma
-  friday: Sung Hyup Lee
+  monday: Katie Lamar
+  tuesday: Chris Randall
+  wednesday: Katie Lamar
+  thursday: Chris Randall
+  friday: Audrey Litvak
 
 - time: 1 PM
-  monday: Cynthia Shen
-  tuesday: Ryan Shaw
-  wednesday: Joshua Lin
-  thursday: Ryan Shaw
-  friday: Edgar Rodriguez
+  monday: Ning McKenzie
+  tuesday: Andrew DeLapo
+  wednesday: Ishan Diskit
+  thursday: Ning McKenzie
+  friday: Audrey Litvak
 
 - time: 2 PM
-  monday: Margo Oka
-  tuesday: Ryan Shaw
-  wednesday: Clark Lyons
-  thursday: Ning McKenzie
-  friday: Clark Lyons
+  monday: Ryan Shaw
+  tuesday: Anthony Chen
+  wednesday: Ishan Diskit
+  thursday: Sanat Mulay
+  friday: Sanat Mulay
 
 - time: 3 PM
-  monday: Cailan Li
-  tuesday: Sanat Mulay
-  wednesday: Edgar Rodriguez
-  thursday: Sanat Mulay
-  friday: Cailan Li
+  monday: Ryan Shaw
+  tuesday: Anthony Chen
+  wednesday: Sung Hyup Lee
+  thursday: Shide Deghani
+  friday: Shide Deghani
 
 
 

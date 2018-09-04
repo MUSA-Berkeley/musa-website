@@ -162,6 +162,37 @@ img {
     }
 }
 
+/******* OFFICER PAGE FORMATTING ***/
+.team .imgrow {
+    margin-bottom: 0px;
+}
+
+.team .imgrow td {
+    text-align:center;
+}
+
+.team .imgrow img {
+    width: 400px;
+    height: 400px;
+}
+
+.team .namerow td {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 0;
+    width: 400px;
+}
+
+.team .titlerow td {
+    padding-bottom:0px;
+    text-align:center;
+}
+
+.team .descriptionrow td {
+    vertical-align:top;
+    text-align:center;
+}
+
 /******* TABLE FORMATTING **********/
 .imgmap {
     width: 100%;
