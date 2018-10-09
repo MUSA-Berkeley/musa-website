@@ -301,7 +301,7 @@ hours:
 - time: 11 AM
   monday: Andrew DeLapo
   tuesday: Ryan Shaw
-  wednesday: &mdash;
+  wednesday: "&mdash;"
   thursday: Andrew DeLapo
   friday: Nick Chiu
 
@@ -329,7 +329,7 @@ hours:
 - time: 3 PM
   monday: Shide Dehghani
   tuesday: Anthony Chen
-  wednesday: &mdash;
+  wednesday: "&mdash;"
   thursday: Shide Dehghani
   friday: Ryan Shaw
 
