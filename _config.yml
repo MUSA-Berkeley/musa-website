@@ -27,11 +27,11 @@ social:
 ### EDIT THIS ###################
 # Math Mondays
 current_monday:
-- title:    ???
-  speaker:  ???
-  date:     10 September, 2018
-  room:     ???
-  abstract: "???"
+- title:    Mirror symmetry in six dimensions
+  speaker:  Catherine Cannizzo
+  date:     8 October
+  room:     1015 Evans
+  abstract: "I will describe my thesis work in understanding an example of a six dimensional manifold, a symplectic manifold, through a concept arising from string theory known as mirror symmetry."
 monday:
 
 
@@ -300,9 +300,9 @@ hours:
 
 - time: 11 AM
   monday: Andrew DeLapo
-  tuesday: Yu Ma
-  wednesday: Sung Hyup Lee
-  thursday: Yu Ma
+  tuesday: Ryan Shaw
+  wednesday: &mdash;
+  thursday: Andrew DeLapo
   friday: Nick Chiu
 
 - time: 12 PM
@@ -314,24 +314,24 @@ hours:
 
 - time: 1 PM
   monday: Ning McKenzie
-  tuesday: Andrew DeLapo
+  tuesday: Yu Ma
   wednesday: Ishan Diskit
   thursday: Ning McKenzie
   friday: Audrey Litvak
 
 - time: 2 PM
-  monday: Ryan Shaw
+  monday: Yu Ma
   tuesday: Anthony Chen
   wednesday: Ishan Diskit
   thursday: Sanat Mulay
   friday: Sanat Mulay
 
 - time: 3 PM
-  monday: Ryan Shaw
+  monday: Shide Dehghani
   tuesday: Anthony Chen
-  wednesday: Sung Hyup Lee
-  thursday: Shide Deghani
-  friday: Shide Deghani
+  wednesday: &mdash;
+  thursday: Shide Dehghani
+  friday: Ryan Shaw
 
 
 
